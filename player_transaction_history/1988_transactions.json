@@ -1,0 +1,892 @@
+[
+  {
+    "date": "July 1, 1987",
+    "transactions": [
+      "TheWashington BulletswaivedDarwin Cook."
+    ]
+  },
+  {
+    "date": "July 13, 1987",
+    "transactions": [
+      "TheNew York KnickshiredRick Pitinoas Head Coach."
+    ]
+  },
+  {
+    "date": "September 17, 1987",
+    "transactions": [
+      "TheSeattle SuperSonicsreleasedTod Murphy."
+    ]
+  },
+  {
+    "date": "October 1, 1987",
+    "transactions": [
+      "TheHouston RocketssignedWorld B. Freeas a free agent."
+    ]
+  },
+  {
+    "date": "October 2, 1987",
+    "transactions": [
+      "ThePhoenix SunssignedJeff Cookas a free agent.",
+      "TheBoston CelticssignedMike O'Korenas a free agent."
+    ]
+  },
+  {
+    "date": "October 5, 1987",
+    "transactions": [
+      "TheIndiana PacerssignedClinton Wheeleras a free agent.",
+      "TheIndiana PacerssignedAnthony Frederickas a free agent."
+    ]
+  },
+  {
+    "date": "October 6, 1987",
+    "transactions": [
+      "TheDetroit PistonssignedRalph Lewisas a free agent.",
+      "TheLos Angeles ClipperssignedTod Murphyas a free agent."
+    ]
+  },
+  {
+    "date": "October 7, 1987",
+    "transactions": [
+      "TheLos Angeles LakerssignedJeff Lampas a veteran free agent and sent a 1988 3rd round draft pick (Archie Marshallwas later selected) to theSan Antonio Spursas compensation.",
+      "TheLos Angeles LakerssignedMilt Wagneras a free agent.",
+      "TheWashington BulletssignedDave Hendersonas a free agent.",
+      "TheSeattle SuperSonicssignedRicky Wilsonas a free agent."
+    ]
+  },
+  {
+    "date": "October 8, 1987",
+    "transactions": [
+      "TheChicago BullssignedScott Meents.",
+      "TheIndiana PacerssignedJim Thomasas a free agent.",
+      "TheWashington BulletssignedTony Campbellas a veteran free agent and sent a 1989 2nd round draft pick to theDetroit Pistonsas compensation. 1989 2nd-rd draft pick was contingent upon Campbell making Washington's roster but he did not do so",
+      "TheCleveland CavalierstradedDarryl DawkinsandMelvin Turpinto theUtah JazzforKent BensonandDell Curry.",
+      "TheCleveland CavalierstradedJohn BagleyandKeith Leeto theNew Jersey NetsforJames BaileyandDarryl Dawkins.",
+      "TheMilwaukee BuckssignedPace Mannionas a free agent.",
+      "TheUtah JazzsignedEddie Hughesas a free agent.",
+      "TheMilwaukee BuckssignedJohn Stroederas a free agent.",
+      "TheSacramento KingssignedMichael Jacksonas a free agent."
+    ]
+  },
+  {
+    "date": "October 9, 1987",
+    "transactions": [
+      "TheGolden State WarriorswaivedPerry Moss.",
+      "TheNew York KnickssignedRay Tolbertas a free agent.",
+      "TheHouston RocketssignedLester Conneras a veteran free agent and sent a 1988 2nd round draft pick (Keith Smartwas later selected) to theGolden State Warriorsas compensation.",
+      "TheHouston RocketssignedAndre Turneras a free agent."
+    ]
+  },
+  {
+    "date": "October 12, 1987",
+    "transactions": [
+      "TheNew York KnickswaivedBrad Wright.",
+      "TheIndiana PacerswaivedJim Thomas."
+    ]
+  },
+  {
+    "date": "October 13, 1987",
+    "transactions": [
+      "TheGolden State Warriorstraded a 1988 3rd round draft pick (Anthony Masonwas later selected) to thePortland Trail BlazersforKermit Washington.",
+      "ThePhoenix SunswaivedGrant Gondrezick."
+    ]
+  },
+  {
+    "date": "October 15, 1987",
+    "transactions": [
+      "TheNew York KnickstradedJawann Oldhamto theSacramento Kingsfor a 1988 2nd round draft pick (Fennis Dembowas later selected)."
+    ]
+  },
+  {
+    "date": "October 16, 1987",
+    "transactions": [
+      "TheSan Antonio SpurssignedJerome Hendersonas a free agent.",
+      "TheWashington BulletssignedBernard Kingas a free agent.",
+      "TheBoston CelticstradedSam VincentandScott Wedmanto theSeattle SuperSonicsfor a 1988 2nd round draft pick (Sylvester Graywas later selected).",
+      "ThePhiladelphia 76erswaivedClaude Gregory."
+    ]
+  },
+  {
+    "date": "October 19, 1987",
+    "transactions": [
+      "ThePhoenix SunswaivedRafael Addison."
+    ]
+  },
+  {
+    "date": "October 20, 1987",
+    "transactions": [
+      "TheSeattle SuperSonicswaivedRicky Wilson."
+    ]
+  },
+  {
+    "date": "October 21, 1987",
+    "transactions": [
+      "TheWashington BulletswaivedDuane Washington."
+    ]
+  },
+  {
+    "date": "October 23, 1987",
+    "transactions": [
+      "TheCleveland CavalierswaivedDonald Royal."
+    ]
+  },
+  {
+    "date": "October 26, 1987",
+    "transactions": [
+      "TheChicago BullswaivedScott Meents."
+    ]
+  },
+  {
+    "date": "October 27, 1987",
+    "transactions": [
+      "TheSan Antonio SpurssignedKurt Nimphiusas a veteran free agent and sent a 1988 2nd round draft pick (Jeff Moewas later selected) to theDetroit Pistonsas compensation.",
+      "TheChicago BullswaivedRicky Wilson."
+    ]
+  },
+  {
+    "date": "October 28, 1987",
+    "transactions": [
+      "TheSeattle SuperSonicswaivedMichael Phelps."
+    ]
+  },
+  {
+    "date": "October 29, 1987",
+    "transactions": [
+      "TheCleveland CavalierstradedJames Baileyto thePhoenix Sunsfor a 1989 2nd round draft pick (Greg Grantwas later selected).",
+      "TheDetroit PistonstradedSidney Greento theNew York KnicksforRon Mooreand a 1988 2nd round draft pick (Fennis Dembowas later selected).",
+      "ThePhoenix SunswaivedSedric Toney.",
+      "TheDenver NuggetswaivedRon Grandison."
+    ]
+  },
+  {
+    "date": "October 30, 1987",
+    "transactions": [
+      "TheDallas MaverickswaivedDennis Nutt."
+    ]
+  },
+  {
+    "date": "November 2, 1987",
+    "transactions": [
+      "TheDenver NuggetstradedMark AlarieandDarrell Walkerto theWashington BulletsforMichael AdamsandJay Vincent.",
+      "TheBoston Celticssold the player rights toMike O'Korento theNew Jersey Nets."
+    ]
+  },
+  {
+    "date": "November 3, 1987",
+    "transactions": [
+      "TheAtlanta HawkstradedDallas Comegysto theNew Jersey Netsfor a 1990 2nd round draft pick (Les Jepsenwas later selected).",
+      "TheSacramento KingswaivedJohnny Rogers.",
+      "TheBoston CelticswaivedRick Carlisle.",
+      "TheUtah JazzwaivedBilly Donovan.",
+      "TheChicago BullswaivedPete Myers.",
+      "TheWashington BulletswaivedEnnis Whatley.",
+      "TheUtah JazzwaivedEddie Hughes.",
+      "TheWashington BulletswaivedTony Campbell.",
+      "TheSan Antonio SpurswaivedAnthony Jones.",
+      "ThePhiladelphia 76erswaivedJim Les."
+    ]
+  },
+  {
+    "date": "November 4, 1987",
+    "transactions": [
+      "TheMilwaukee BuckswaivedWinston Garland.",
+      "TheMilwaukee BuckswaivedBob McCann."
+    ]
+  },
+  {
+    "date": "November 5, 1987",
+    "transactions": [
+      "TheLos Angeles Lakerssold the player rights toAdrian Branchto theNew Jersey Nets.",
+      "TheGolden State WarriorstradedPurvis Shortto theHouston RocketsforDave Feitland a 1989 1st round draft pick (Dana Barroswas later selected).",
+      "TheGolden State WarriorssignedDirk Minniefieldas a veteran free agent.",
+      "TheCleveland CavalierswaivedJohnny Newman.",
+      "TheNew Jersey NetswaivedLeon Wood.",
+      "TheWashington BulletswaivedDave Henderson.",
+      "TheHouston RocketswaivedAnthony Bowie.",
+      "TheHouston RocketswaivedDoug Lee."
+    ]
+  },
+  {
+    "date": "November 9, 1987",
+    "transactions": [
+      "TheChicago BullswaivedRickie Winslow.",
+      "TheLos Angeles ClipperswaivedTod Murphy."
+    ]
+  },
+  {
+    "date": "November 10, 1987",
+    "transactions": [
+      "ThePortland Trail BlazerssignedMaurice Lucasas a veteran free agent and sent a 1990 2nd round draft pick (Abdul Shamsid-Deenwas later selected) to theSeattle SuperSonicsas compensation.",
+      "TheCleveland CavalierssignedJohnny Rogersas a free agent."
+    ]
+  },
+  {
+    "date": "November 11, 1987",
+    "transactions": [
+      "ThePortland Trail BlazerswaivedKen Johnson."
+    ]
+  },
+  {
+    "date": "November 12, 1987",
+    "transactions": [
+      "TheNew York KnickssignedJohnny Newmanas a free agent.",
+      "TheSan Antonio SpurssignedLeon Woodas a free agent.",
+      "TheChicago Bullstraded a 1988 2nd round draft pick (Greg Butlerwas later selected) to theNew York KnicksforRory Sparrow.",
+      "TheChicago BullswaivedTony White."
+    ]
+  },
+  {
+    "date": "November 13, 1987",
+    "transactions": [
+      "TheMilwaukee BuckssignedRickie Winslowas a free agent."
+    ]
+  },
+  {
+    "date": "November 14, 1987",
+    "transactions": [
+      "TheNew York KnickswaivedGerald Henderson."
+    ]
+  },
+  {
+    "date": "November 16, 1987",
+    "transactions": [
+      "TheNew York KnicksclaimedTony Whiteon waivers from theChicago Bulls."
+    ]
+  },
+  {
+    "date": "November 17, 1987",
+    "transactions": [
+      "TheDallas MaverickswaivedAl Wood."
+    ]
+  },
+  {
+    "date": "November 18, 1987",
+    "transactions": [
+      "TheMilwaukee BuckstradedCharles Davisand a 1989 2nd round draft pick (Reggie Turnerwas later selected) to theSan Antonio SpursforLarry Krystkowiak."
+    ]
+  },
+  {
+    "date": "November 19, 1987",
+    "transactions": [
+      "TheSan Antonio SpurswaivedJohnny Moore.",
+      "ThePhiladelphia 76erswaivedMichael Young."
+    ]
+  },
+  {
+    "date": "November 24, 1987",
+    "transactions": [
+      "ThePhiladelphia 76erssignedAlbert Kingas a veteran free agent and sent a 1988 2nd round draft pick (Charles Shacklefordwas later selected) to theNew Jersey Netsas compensation."
+    ]
+  },
+  {
+    "date": "November 25, 1987",
+    "transactions": [
+      "TheGolden State WarriorswaivedKermit Washington.",
+      "TheGolden State WarriorssignedWinston Garlandas a free agent.",
+      "TheGolden State WarriorswaivedDirk Minniefield."
+    ]
+  },
+  {
+    "date": "November 26, 1987",
+    "transactions": [
+      "TheDetroit Pistonstraded cash, a 1988 2nd round draft pick (Jeff Moewas later selected) and a 1990 2nd round draft pick (Phil Hendersonwas later selected) to theUtah JazzforDarryl Dawkins."
+    ]
+  },
+  {
+    "date": "November 30, 1987",
+    "transactions": [
+      "TheNew York KnickssignedRick Carlisleas a free agent.",
+      "TheBoston CelticswaivedConner Henry."
+    ]
+  },
+  {
+    "date": "December 1, 1987",
+    "transactions": [
+      "TheSan Antonio SpurswaivedNate Blackwell."
+    ]
+  },
+  {
+    "date": "December 3, 1987",
+    "transactions": [
+      "TheNew Jersey NetswaivedJamie Waller.",
+      "ThePhiladelphia 76erssignedGerald Hendersonas a free agent.",
+      "TheNew Jersey NetssignedJohnny Mooreas a free agent.",
+      "TheDenver NuggetswaivedAndre Moore.",
+      "ThePhiladelphia 76erswaivedSteve Colter."
+    ]
+  },
+  {
+    "date": "December 5, 1987",
+    "transactions": [
+      "TheMilwaukee BuckssignedConner Henryas a free agent."
+    ]
+  },
+  {
+    "date": "December 7, 1987",
+    "transactions": [
+      "TheHouston RocketswaivedRichard Anderson."
+    ]
+  },
+  {
+    "date": "December 8, 1987",
+    "transactions": [
+      "TheIndiana PacerswaivedBrian Rowsom."
+    ]
+  },
+  {
+    "date": "December 9, 1987",
+    "transactions": [
+      "TheNew Jersey NetsfiredDave Wohlas Head Coach.",
+      "TheNew Jersey NetshiredBob MacKinnonas Head Coach.",
+      "TheGolden State WarriorswaivedWinston Garland.",
+      "ThePortland Trail BlazersclaimedRichard Andersonon waivers from theHouston Rockets.",
+      "TheNew York KnickswaivedRay Tolbert.",
+      "ThePortland Trail BlazerswaivedKevin Gamble."
+    ]
+  },
+  {
+    "date": "December 10, 1987",
+    "transactions": [
+      "TheIndiana PacerswaivedClint Richardson.",
+      "TheMilwaukee BuckswaivedDudley Bradley."
+    ]
+  },
+  {
+    "date": "December 11, 1987",
+    "transactions": [
+      "TheNew York KnickssignedBilly Donovanas a free agent.",
+      "TheMilwaukee BuckssignedAndre Mooreas a free agent.",
+      "TheNew York KnickswaivedTony White."
+    ]
+  },
+  {
+    "date": "December 12, 1987",
+    "transactions": [
+      "TheGolden State WarriorstradedJoe Barry Carroll,Sleepy Floydand cash to theHouston RocketsforSteve HarrisandRalph Sampson.",
+      "TheLos Angeles LakerssignedRay Tolbertas a free agent.",
+      "TheDetroit PistonswaivedEric White."
+    ]
+  },
+  {
+    "date": "December 14, 1987",
+    "transactions": [
+      "TheSacramento KingswaivedJoe Arlauckas.",
+      "TheGolden State WarriorssignedWinston Garlandas a free agent.",
+      "TheAtlanta HawkstradedMike McGeeto theSacramento Kingsfor a 1991 2nd round draft pick (Rodney Monroewas later selected) and a 1995 2nd round draft pick (Donnie Boycewas later selected)."
+    ]
+  },
+  {
+    "date": "December 15, 1987",
+    "transactions": [
+      "TheNew York KnickswaivedChris McNealy.",
+      "TheNew Jersey NetssignedDudley Bradleyas a free agent.",
+      "TheAtlanta HawkstradedKen Barlowto theGolden State WarriorsforChris Washburn.",
+      "TheGolden State WarriorsclaimedTony Whiteon waivers from theNew York Knicks.",
+      "TheNew Jersey NetswaivedJohnny Moore."
+    ]
+  },
+  {
+    "date": "December 16, 1987",
+    "transactions": [
+      "TheNew York KnickswaivedBob Thornton."
+    ]
+  },
+  {
+    "date": "December 17, 1987",
+    "transactions": [
+      "TheBoston CelticssignedDirk Minniefieldas a free agent."
+    ]
+  },
+  {
+    "date": "December 19, 1987",
+    "transactions": [
+      "ThePhiladelphia 76erssignedBob Thorntonas a free agent.",
+      "TheGolden State WarriorswaivedKevin Henderson."
+    ]
+  },
+  {
+    "date": "December 20, 1987",
+    "transactions": [
+      "TheGolden State WarriorssignedNate Blackwellas a free agent."
+    ]
+  },
+  {
+    "date": "December 22, 1987",
+    "transactions": [
+      "TheMilwaukee BuckswaivedRickie Winslow.",
+      "TheWashington BulletssignedSteve Colteras a free agent.",
+      "TheDenver Nuggetssold the player rights toOtis Smithto theGolden State Warriors.",
+      "ThePhiladelphia 76erswaivedVincent Askew.",
+      "TheNew Jersey NetswaivedAdrian Branch."
+    ]
+  },
+  {
+    "date": "December 26, 1987",
+    "transactions": [
+      "TheChicago BullswaivedArtis Gilmore."
+    ]
+  },
+  {
+    "date": "December 28, 1987",
+    "transactions": [
+      "ThePhoenix SunswaivedBill Martin.",
+      "TheMilwaukee BuckswaivedAndre Moore.",
+      "TheSan Antonio SpurswaivedCharles Davis."
+    ]
+  },
+  {
+    "date": "December 29, 1987",
+    "transactions": [
+      "TheSan Antonio SpurswaivedNate Blackwell.",
+      "TheCleveland CavalierswaivedKannard Johnson.",
+      "TheGolden State Warriorstraded a 1988 2nd round draft pick (Andrew Langwas later selected) to theMilwaukee BucksforDon Nelson.",
+      "TheWashington BulletswaivedSteve Colter.",
+      "TheAtlanta HawkswaivedDave Hoppen."
+    ]
+  },
+  {
+    "date": "January 1, 1988",
+    "transactions": [
+      "TheWashington BulletssignedSteve Colterto a 10-day contract."
+    ]
+  },
+  {
+    "date": "January 3, 1988",
+    "transactions": [
+      "TheWashington BulletsfiredKevin Lougheryas Head Coach.",
+      "TheWashington BulletshiredWes Unseldas Head Coach."
+    ]
+  },
+  {
+    "date": "January 5, 1988",
+    "transactions": [
+      "TheIndiana PacershiredDick Versaceas Head Coach."
+    ]
+  },
+  {
+    "date": "January 8, 1988",
+    "transactions": [
+      "TheBoston CelticssignedArtis Gilmoreas a free agent."
+    ]
+  },
+  {
+    "date": "January 12, 1988",
+    "transactions": [
+      "TheMilwaukee BuckssignedDave Hoppento a 10-day contract."
+    ]
+  },
+  {
+    "date": "January 16, 1988",
+    "transactions": [
+      "TheNew Jersey NetstradedBen ColemanandMike Gminskito thePhiladelphia 76ersforRoy Hinson,Tim McCormickand a 1989 2nd round draft pick (Stanley Brundywas later selected)."
+    ]
+  },
+  {
+    "date": "January 18, 1988",
+    "transactions": [
+      "TheSacramento KingswaivedFranklin Edwards.",
+      "TheMilwaukee BuckswaivedConner Henry."
+    ]
+  },
+  {
+    "date": "January 20, 1988",
+    "transactions": [
+      "TheLos Angeles ClipperssignedMichael Phelpsto a 10-day contract.",
+      "TheUtah JazzwaivedCarey Scurry."
+    ]
+  },
+  {
+    "date": "January 21, 1988",
+    "transactions": [
+      "TheWashington BulletssignedSteve Colteras a free agent."
+    ]
+  },
+  {
+    "date": "January 22, 1988",
+    "transactions": [
+      "TheGolden State WarriorssignedDave Hoppenas a free agent."
+    ]
+  },
+  {
+    "date": "January 29, 1988",
+    "transactions": [
+      "TheSan Antonio SpurssignedPete Myersas a free agent."
+    ]
+  },
+  {
+    "date": "February 1, 1988",
+    "transactions": [
+      "TheBoston CelticswaivedGreg Kite."
+    ]
+  },
+  {
+    "date": "February 3, 1988",
+    "transactions": [
+      "TheLos Angeles ClipperswaivedNorris Coleman.",
+      "TheLos Angeles ClippersclaimedGreg Kiteon waivers from theBoston Celtics."
+    ]
+  },
+  {
+    "date": "February 8, 1988",
+    "transactions": [
+      "ThePhiladelphia 76ersfiredMatt Guokasas Head Coach.",
+      "ThePhiladelphia 76ershiredJim Lynamas Head Coach."
+    ]
+  },
+  {
+    "date": "February 11, 1988",
+    "transactions": [
+      "TheAtlanta HawkssignedEnnis Whatleyto the first of two 10-day contracts."
+    ]
+  },
+  {
+    "date": "February 17, 1988",
+    "transactions": [
+      "TheSan Antonio SpurswaivedLeon Wood."
+    ]
+  },
+  {
+    "date": "February 21, 1988",
+    "transactions": [
+      "TheDenver NuggetssignedBrad Wrightto a 10-day contract."
+    ]
+  },
+  {
+    "date": "February 23, 1988",
+    "transactions": [
+      "TheBoston CelticstradedJerry Sichtingto thePortland Trail BlazersforJim Paxson."
+    ]
+  },
+  {
+    "date": "February 24, 1988",
+    "transactions": [
+      "TheBoston CelticswaivedDarren Daye.",
+      "TheDetroit PistonstradedRon Mooreand a 1991 2nd round draft pick (Richard Dumaswas later selected) to thePhoenix SunsforJames Edwards."
+    ]
+  },
+  {
+    "date": "February 25, 1988",
+    "transactions": [
+      "TheCleveland CavalierstradedTyrone Corbin,Kevin Johnson,Mark West, a 1988 1st round draft pick (Dan Majerlewas later selected), a 1988 2nd round draft pick (Dean Garrettwas later selected) and a 1989 2nd round draft pick (Greg Grantwas later selected) to thePhoenix SunsforLarry Nance,Mike Sandersand a 1988 1st round draft pick (Randolph Keyswas later selected).",
+      "TheMilwaukee BuckstradedCraig Hodgesand a 1988 2nd round draft pick (Andrew Langwas later selected) to thePhoenix SunsforJay Humphries.",
+      "TheChicago BullstradedSedale Threattto theSeattle SuperSonicsforSam Vincent.",
+      "TheUtah JazzsignedScott Rothas a free agent."
+    ]
+  },
+  {
+    "date": "February 26, 1988",
+    "transactions": [
+      "TheLos Angeles ClipperswaivedLancaster Gordon."
+    ]
+  },
+  {
+    "date": "February 27, 1988",
+    "transactions": [
+      "TheNew Jersey NetssignedRicky Wilsonto the first of two 10-day contracts."
+    ]
+  },
+  {
+    "date": "February 29, 1988",
+    "transactions": [
+      "TheNew Jersey NetshiredWillis Reedas Head Coach."
+    ]
+  },
+  {
+    "date": "March 2, 1988",
+    "transactions": [
+      "TheNew York KnickssignedCarey Scurryto the first of two 10-day contracts."
+    ]
+  },
+  {
+    "date": "March 3, 1988",
+    "transactions": [
+      "ThePhiladelphia 76erssignedDave Hendersonto the first of two 10-day contracts."
+    ]
+  },
+  {
+    "date": "March 4, 1988",
+    "transactions": [
+      "TheDenver NuggetssignedMichael Brooksas a veteran free agent and sent a 1988 3rd round draft pick (Michael Andersonwas later selected) to theIndiana Pacersas compensation.",
+      "TheAtlanta HawkssignedLeon Woodto the first of two 10-day contracts."
+    ]
+  },
+  {
+    "date": "March 7, 1988",
+    "transactions": [
+      "TheSacramento Kingsreassigned Head CoachBill Russell.",
+      "TheSacramento KingshiredJerry Reynoldsas Head Coach.",
+      "TheLos Angeles ClipperssignedClaude Gregoryto the first of two 10-day contracts."
+    ]
+  },
+  {
+    "date": "March 13, 1988",
+    "transactions": [
+      "TheNew York KnickssignedSedric Toneyto a 10-day contract."
+    ]
+  },
+  {
+    "date": "March 14, 1988",
+    "transactions": [
+      "TheLos Angeles LakerswaivedRay Tolbert.",
+      "TheMilwaukee BuckswaivedPace Mannion."
+    ]
+  },
+  {
+    "date": "March 18, 1988",
+    "transactions": [
+      "TheLos Angeles ClipperssignedSteve Burttto two 10-day contracts, then signed to a contract for the rest of the season."
+    ]
+  },
+  {
+    "date": "March 19, 1988",
+    "transactions": [
+      "TheNew Jersey NetssignedDuane Washingtonto two 10-day contracts, then signed to a contract for the rest of the season."
+    ]
+  },
+  {
+    "date": "March 22, 1988",
+    "transactions": [
+      "TheSan Antonio SpurssignedRicky Wilsonto the first of two 10-day contracts."
+    ]
+  },
+  {
+    "date": "March 23, 1988",
+    "transactions": [
+      "George Karlresigns as Head Coach forGolden State Warriors.",
+      "TheGolden State Warriorsappointed Ed Gregory as Interim Head Coach.",
+      "TheNew York KnickssignedSedric Toneyas a free agent.",
+      "TheUtah JazzsignedEddie Hughesto a contract for the rest of the season.",
+      "TheLos Angeles ClipperssignedEric Whiteto the first of two 10-day contracts.",
+      "TheLos Angeles ClipperswaivedMartin Nessley."
+    ]
+  },
+  {
+    "date": "March 25, 1988",
+    "transactions": [
+      "TheAtlanta HawkssignedLeon Woodto a contract for the rest of the season."
+    ]
+  },
+  {
+    "date": "March 26, 1988",
+    "transactions": [
+      "TheSacramento KingssignedConner Henryto the first of two 10-day contracts."
+    ]
+  },
+  {
+    "date": "March 28, 1988",
+    "transactions": [
+      "TheNew York KnickswaivedBilly Donovan.",
+      "TheLos Angeles ClipperssignedClaude Gregoryas a free agent."
+    ]
+  },
+  {
+    "date": "March 29, 1988",
+    "transactions": [
+      "TheCleveland CavalierssignedKevin Hendersonas a free agent."
+    ]
+  },
+  {
+    "date": "March 30, 1988",
+    "transactions": [
+      "TheGolden State WarriorssignedMark Wadeto the first of two 10-day contracts.",
+      "TheLos Angeles LakerssignedTony Campbellas a free agent."
+    ]
+  },
+  {
+    "date": "April 1, 1988",
+    "transactions": [
+      "TheSacramento KingssignedMartin Nessleyto the first of two 10-day contracts."
+    ]
+  },
+  {
+    "date": "April 5, 1988",
+    "transactions": [
+      "TheGolden State WarriorshiredDon Nelsonas Head Coach."
+    ]
+  },
+  {
+    "date": "April 8, 1988",
+    "transactions": [
+      "TheSan Antonio SpurssignedRichard Rellfordto a 10-day contract."
+    ]
+  },
+  {
+    "date": "April 11, 1988",
+    "transactions": [
+      "TheSan Antonio SpurssignedRicky Wilsonas a free agent."
+    ]
+  },
+  {
+    "date": "April 12, 1988",
+    "transactions": [
+      "TheLos Angeles ClipperssignedEric Whiteas a free agent."
+    ]
+  },
+  {
+    "date": "April 14, 1988",
+    "transactions": [
+      "TheSacramento KingssignedConner Henryto a contract for the rest of the season."
+    ]
+  },
+  {
+    "date": "April 18, 1988",
+    "transactions": [
+      "TheSan Antonio SpurssignedRichard Rellfordto a contract for the rest of the season."
+    ]
+  },
+  {
+    "date": "April 20, 1988",
+    "transactions": [
+      "TheGolden State WarriorssignedMark Wadeto a contract for the rest of the season."
+    ]
+  },
+  {
+    "date": "April 21, 1988",
+    "transactions": [
+      "TheSacramento KingssignedMartin Nessleyas a free agent."
+    ]
+  },
+  {
+    "date": "April 24, 1988",
+    "transactions": [
+      "TheDetroit PistonssignedWalker Russellas a veteran free agent."
+    ]
+  },
+  {
+    "date": "April 25, 1988",
+    "transactions": [
+      "TheSacramento KingswaivedMartin Nessley."
+    ]
+  },
+  {
+    "date": "April 29, 1988",
+    "transactions": [
+      "Alvan Adamsretired from thePhoenix Suns."
+    ]
+  },
+  {
+    "date": "May ?, 1988",
+    "transactions": [
+      "Maurice Lucasretired from thePortland Trail Blazers."
+    ]
+  },
+  {
+    "date": "May 2, 1988",
+    "transactions": [
+      "ThePhoenix SunsfiredJohn Wetzelas Head Coach."
+    ]
+  },
+  {
+    "date": "May 3, 1988",
+    "transactions": [
+      "K.C. Jonesresigns as Head Coach forBoston Celtics.",
+      "TheBoston CelticshiredJimmy Rodgersas Head Coach."
+    ]
+  },
+  {
+    "date": "May 10, 1988",
+    "transactions": [
+      "ThePhoenix SunshiredCotton Fitzsimmonsas Head Coach."
+    ]
+  },
+  {
+    "date": "May 19, 1988",
+    "transactions": [
+      "TheMilwaukee BuckssignedMark Davisas a free agent."
+    ]
+  },
+  {
+    "date": "June 1, 1988",
+    "transactions": [
+      "TheOrlando MagichiredMatt Guokasas Head Coach."
+    ]
+  },
+  {
+    "date": "June 3, 1988",
+    "transactions": [
+      "TheCharlotte HornetshiredDick Harteras Head Coach."
+    ]
+  },
+  {
+    "date": "June 6, 1988",
+    "transactions": [
+      "TheHouston RocketsfiredBill Fitchas Head Coach."
+    ]
+  },
+  {
+    "date": "June 7, 1988",
+    "transactions": [
+      "TheSan Antonio SpursfiredBob Weissas Head Coach."
+    ]
+  },
+  {
+    "date": "June 8, 1988",
+    "transactions": [
+      "TheGolden State WarriorstradedDave Feitland a 1989 2nd round draft pick (Doug Rothwas later selected) to theWashington BulletsforManute Bol."
+    ]
+  },
+  {
+    "date": "June 13, 1988",
+    "transactions": [
+      "TheHouston RocketshiredDon Chaneyas Head Coach.",
+      "TheSan Antonio SpurshiredLarry Brownas Head Coach."
+    ]
+  },
+  {
+    "date": "June 23, 1988",
+    "transactions": [
+      "TheBoston Celticstraded a 1988 2nd round draft pick (Sylvester Graywas later selected) to theMiami Heat. Miami agreed not to select Dennis Johnson in the expansion draft.",
+      "TheDallas Maverickstraded a 1988 1st round draft pick (Kevin Edwardswas later selected) to theMiami Heat. Miami agreed to select Arvid Kramer in the expansion draft.",
+      "TheLos Angeles Lakerstraded a 1992 2nd round draft pick (Matt Geigerwas later selected) to theMiami Heat. Miami agreed not to select Kareem Abdul-Jabbar in the expansion draft.",
+      "TheSeattle SuperSonicstraded a 1988 2nd round draft pick (Orlando Grahamwas later selected) to theMiami Heat. Miami agreed not to select Danny Young in the expansion draft.",
+      "TheCharlotte HornetsdraftedMuggsy Boguesfrom theWashington Bulletsin the NBA expansion draft.",
+      "TheCharlotte HornetsdraftedMichael Brooksfrom theDenver Nuggetsin the NBA expansion draft.",
+      "TheCharlotte HornetsdraftedMike Brownfrom theChicago Bullsin the NBA expansion draft.",
+      "TheCharlotte HornetsdraftedDell Curryfrom theCleveland Cavaliersin the NBA expansion draft.",
+      "TheMiami HeatdraftedHansi Gnadfrom thePhiladelphia 76ersin the NBA expansion draft.",
+      "TheCharlotte HornetsdraftedRickey Greenfrom theUtah Jazzin the NBA expansion draft.",
+      "TheMiami HeatdraftedScott Hastingsfrom theAtlanta Hawksin the NBA expansion draft.",
+      "TheMiami HeatdraftedConner Henryfrom theSacramento Kingsin the NBA expansion draft.",
+      "TheCharlotte HornetsdraftedMike Holtonfrom thePortland Trail Blazersin the NBA expansion draft.",
+      "TheCharlotte HornetsdraftedDave Hoppenfrom theGolden State Warriorsin the NBA expansion draft.",
+      "TheMiami HeatdraftedArvid Kramerfrom theDallas Mavericksin the NBA expansion draft.",
+      "TheCharlotte HornetsdraftedRalph Lewisfrom theDetroit Pistonsin the NBA expansion draft.",
+      "TheMiami HeatdraftedFred Robertsfrom theBoston Celticsin the NBA expansion draft.",
+      "TheMiami HeatdraftedJohn Stroederfrom theMilwaukee Bucksin the NBA expansion draft.",
+      "TheMiami HeatdraftedJon Sundvoldfrom theSan Antonio Spursin the NBA expansion draft.",
+      "TheCharlotte HornetsdraftedBernard Thompsonfrom thePhoenix Sunsin the NBA expansion draft.",
+      "TheMiami HeatdraftedBilly Thompsonfrom theLos Angeles Lakersin the NBA expansion draft.",
+      "TheCharlotte HornetsdraftedSedric Toneyfrom theNew York Knicksin the NBA expansion draft.",
+      "TheMiami HeatdraftedAndre Turnerfrom theHouston Rocketsin the NBA expansion draft.",
+      "TheMiami HeatdraftedDarnell Valentinefrom theLos Angeles Clippersin the NBA expansion draft.",
+      "TheMiami HeatdraftedPearl Washingtonfrom theNew Jersey Netsin the NBA expansion draft.",
+      "TheCharlotte HornetsdraftedClinton Wheelerfrom theIndiana Pacersin the NBA expansion draft.",
+      "TheMiami HeatdraftedKevin Williamsfrom theSeattle SuperSonicsin the NBA expansion draft.",
+      "TheCharlotte HornetstradedMike Brownto theUtah JazzforKelly Tripucka.",
+      "TheMiami HeattradedFred Robertsto theMilwaukee Bucksfor a 1989 2nd round draft pick (Scott Haffnerwas later selected).",
+      "TheCleveland Cavalierstraded a 1990 2nd round draft pick (Steve Bardowas later selected) to theMiami HeatforDarnell Valentine.",
+      "TheMilwaukee BucksreleasedJohn Lucas."
+    ]
+  },
+  {
+    "date": "June 27, 1988",
+    "transactions": [
+      "TheChicago BullstradedCharles Oakley, a 1988 1st round draft pick (Rod Stricklandwas later selected) and a 1988 3rd round draft pick (Phil Stinniewas later selected) to theNew York KnicksforBill Cartwright, a 1988 1st round draft pick (Will Perduewas later selected) and a 1988 3rd round draft pick (Derrick Lewiswas later selected).",
+      "TheAtlanta HawkstradedRandy Wittmanand a 1988 1st round draft pick (Ricky Berrywas later selected) to theSacramento KingsforReggie Theusand a 1988 3rd round draft pick (Jorge Gonzalezwas later selected)."
+    ]
+  },
+  {
+    "date": "June 28, 1988",
+    "transactions": [
+      "TheLos Angeles ClipperstradedMichael Cageto theSeattle SuperSonicsforGary Grantand a 1989 1st round draft pick (Kenny Paynewas later selected).",
+      "TheLos Angeles ClipperstradedHersey Hawkinsand a 1989 1st round draft pick (Kenny Paynewas later selected) to thePhiladelphia 76ersforCharles Smith.",
+      "TheDenver NuggetstradedVernon Maxwellto theSan Antonio Spursfor a 1989 2nd round draft pick (Reggie Turnerwas later selected)."
+    ]
+  },
+  {
+    "date": "June 30, 1988",
+    "transactions": [
+      "ThePhoenix SunsreleasedJames Bailey.",
+      "ThePhoenix SunsreleasedJeff Cook."
+    ]
+  }
+]
