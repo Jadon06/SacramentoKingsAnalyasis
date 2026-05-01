@@ -1,0 +1,9 @@
+1. Complete analyzing championship teams
+    - analyze roster talent, GM decisions and potential outliers
+    - analyze depth(use a depth score)
+    - analyze team chemistry and experience
+2. Analyze teams that consistently make playoffs, e.g. teams that've made playoffs 70% of the time in the last 20 yrs
+    - compare roster, GM decisions, stats with SAC roster, GM decisions and stats
+3. Analyze SAC player development
+    - Do players improve over time?(increase in ppg, apg, courtvision, decision making, etc)
+4. Analyze SAC GM decision making
