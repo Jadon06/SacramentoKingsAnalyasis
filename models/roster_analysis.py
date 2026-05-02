@@ -65,7 +65,7 @@ df_roster_stats_sac = pd.merge(df_sac_advanced_stats, df_roster_sac, on=["Player
 
 df_roster_stats.drop(columns=["College"], inplace=True)
 df_roster_stats_sac.drop(columns=["College"], inplace=True)
-print(df_sac_advanced_stats.head())
+# print(df_sac_advanced_stats.head())
 
 # create roster depth measurement
 def calculate_bench_contributions(df: pd.DataFrame):
@@ -170,6 +170,6 @@ data = champs_bench_contributions | sac_bench_contributions
 champs_depth = calculate_depth(df_roster_stats)
 sac_depth = calculate_depth(df_roster_stats_sac)
 depth_data = champs_depth | sac_depth
-print(champs_depth)
-print(sac_depth)
-plot_depth_scores(depth_data, SAC_PLAYOFF_RESULTS)
+# print(champs_depth)
+# print(sac_depth)
+# plot_depth_scores(depth_data, SAC_PLAYOFF_RESULTS)

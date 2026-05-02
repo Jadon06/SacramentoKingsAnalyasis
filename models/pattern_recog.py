@@ -9,6 +9,7 @@ from keras.preprocessing.sequence import pad_sequences
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
+from sklearn.tree import DecisionTreeClassifier, export_text, plot_tree
 
 import matplotlib.pyplot as plt
 import os
@@ -143,7 +144,7 @@ autoencoder.fit(
 )
 
 embeddings = encoder_model.predict(X)
-print(embeddings.shape)
+#  print(embeddings.shape)
 
 kmeans = KMeans(n_clusters=3)
 labels = kmeans.fit_predict(embeddings)
@@ -157,13 +158,52 @@ plt.scatter(reduced[:,0], reduced[:,1], c=labels)
 
 all_teams = np.concatenate([sac_teams, chip_teams])
 results = pd.DataFrame({"team": all_teams, "cluster": labels})
-print(results)
+grouped = results.groupby("cluster")
+clusters = grouped["team"].apply(list)
+df_advanced_stats = pd.read_csv("data/champions_advanced_stats.csv")
+df_advanced_stats["team"] = df_advanced_stats["team"] + "_" + df_advanced_stats["year"].astype("Int64").astype(str)
+df_advanced_stats.drop(columns=["year"], inplace=True)
+
+cluster1 = clusters[1]
+cluster2 = clusters[2]
+advanced_stats_in_c1 = df_advanced_stats[df_advanced_stats["team"].isin(cluster1)]
+advanced_stats_in_c2 = df_advanced_stats[df_advanced_stats["team"].isin(cluster2)]
+
+print(advanced_stats_in_c1)
+print(advanced_stats_in_c2)
+print(advanced_stats_in_c2.shape)
+print(advanced_stats_in_c1.shape)
 
 df_all = pd.concat([df, df_sac], ignore_index=True)
 df_all_advanced_stats = pd.concat([df_advanced_stats, df_advanced_stats_sac], ignore_index=True)
 dfs = [df_all_advanced_stats, df_all, results]
 df_clustered = reduce(lambda left, right: pd.merge(left, right, on='team'), dfs)
 summary = df_clustered.groupby("cluster").mean(numeric_only=True)
-print(summary)
+# print(summary)
 
-summary.to_csv(os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "Champions_since_2000_summarized.csv"))
+# summary.to_csv(os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "Champions_since_2000_summarized.csv"))
+
+# decision tree to surface human-readable cluster rules (cluster 0 excluded)
+df_filtered = df_clustered[df_clustered["cluster"] != 0]
+features_df = df_filtered.select_dtypes(include="number").drop(columns=["cluster"])
+labels_series = df_filtered["cluster"]
+
+tree = DecisionTreeClassifier(max_depth=3, random_state=0).fit(features_df, labels_series)
+print("\n--- cluster decision rules ---")
+print(export_text(tree, feature_names=list(features_df.columns)))
+
+importances = pd.Series(tree.feature_importances_, index=features_df.columns).sort_values(ascending=False)
+print("\n--- top splitting features ---")
+print(importances.head(10))
+
+plt.figure(figsize=(20, 10))
+plot_tree(
+    tree,
+    feature_names=list(features_df.columns),
+    class_names=[f"cluster {c}" for c in sorted(labels_series.unique())],
+    filled=True,
+    rounded=True,
+    fontsize=9,
+)
+plt.tight_layout()
+plt.show()

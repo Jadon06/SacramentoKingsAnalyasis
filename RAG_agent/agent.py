@@ -109,7 +109,9 @@ chain = (
     | prompt
     | model
 )
-question = "Find me all major transactions relevant to the Sacramento Kings since the year 1995 inclusive. A major transaction involves any famous player at the time"
+question = """find me major, major as in transactions that includes signings,
+ waivings, tradings of star players, prospects, etc. Transactions that've occurred 
+ 2024 onwards, inclusive, by the Sacramento Kings otherwise known as SAC"""
 results = chain.invoke({"question" : question})
 for transaction_object in results.transactions:
     print(transaction_object)
