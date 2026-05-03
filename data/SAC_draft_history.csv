@@ -1,0 +1,609 @@
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP.1,PTS.1,TRB.1,AST.1,WS,WS/48,BPM,VORP
+2025,NBA,2,42,Maxime Raynaud,Stanford,74,1964,922,556,100,.571,.324,.786,26.5,12.5,7.5,1.4,3.6,.088,-2.4,-0.2
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2024,NBA,1,13,Devin Carter,Providence,74,1096,477,201,142,.401,.274,.674,14.8,6.4,2.7,1.9,0.5,.023,-2.8,-0.2
+2024,NBA,2,45,Jamal Shead (↳TOR),Houston,157,3319,1078,258,760,.386,.322,.778,21.1,6.9,1.6,4.8,3.5,.051,-3.1,-0.9
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2023,NBA,1,24,Olivier-Maxence Prosper (↳DAL),Marquette,145,1904,852,392,113,.481,.348,.706,13.1,5.9,2.7,0.8,3.8,.097,-1.2,0.4
+2023,NBA,2,38,Jordan Walsh (↳BOS),Arkansas,129,1698,461,361,78,.471,.344,.732,13.2,3.6,2.8,0.6,4.3,.122,-0.9,0.5
+2023,NBA,2,54,Jalen Slawson,Furman University,25,348,103,64,38,.458,.357,.706,13.9,4.1,2.6,1.5,0.5,.069,-1.0,0.1
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2022,NBA,1,4,Keegan Murray,Iowa,256,8373,3411,1430,374,.447,.365,.807,32.7,13.3,5.6,1.5,14.1,.081,-1.2,1.6
+2022,NBA,2,37,Jaden Hardy (↳DAL),,235,3502,1969,395,313,.425,.386,.756,14.9,8.4,1.7,1.3,0.5,.007,-4.1,-1.8
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2021,NBA,1,9,Davion Mitchell,Baylor,371,8651,2932,719,1448,.452,.355,.687,23.3,7.9,1.9,3.9,10.3,.057,-2.6,-1.3
+2021,NBA,2,39,Neemias Queta,Utah State University,186,3271,1297,1036,198,.642,.091,.707,17.6,7.0,5.6,1.1,14.2,.209,1.4,2.8
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2020,NBA,1,12,Tyrese Haliburton,Iowa State,333,10998,5842,1218,2947,.477,.392,.855,33.0,17.5,3.7,8.8,37.6,.164,4.8,18.9
+2020,NBA,2,35,Xavier Tillman (↳MEM),Michigan State,290,4354,1433,1021,330,.506,.246,.572,15.0,4.9,3.5,1.1,10.3,.114,-0.2,2.0
+2020,NBA,2,43,Jahmi'us Ramsey,Texas Tech,39,349,147,45,21,.416,.271,.680,8.9,3.8,1.2,0.5,-0.1,-0.008,-5.4,-0.3
+2020,NBA,2,52,Kenyon Martin (↳HOU),,309,6674,2652,1247,371,.545,.329,.673,21.6,8.6,4.0,1.2,12.4,.089,-1.8,0.4
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2019,NBA,2,40,Justin James,Wyoming,72,542,228,62,40,.446,.343,.544,7.5,3.2,0.9,0.6,0.3,.024,-3.1,-0.2
+2019,NBA,2,47,Ignas Brazdeikis (↳NYK),Michigan,64,838,318,122,58,.416,.315,.686,13.1,5.0,1.9,0.9,0.4,.024,-4.9,-0.6
+2019,NBA,2,60,Vanja MarinkoviÄ,,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2018,NBA,1,2,Marvin Bagley,Duke,349,7675,4106,2255,338,.531,.308,.685,22.0,11.8,6.5,1.0,16.3,.102,-1.2,1.5
+2018,NBA,2,37,Gary Trent (↳POR),Duke,480,13075,6227,1050,678,.420,.387,.819,27.2,13.0,2.2,1.4,19.0,.070,-1.6,1.4
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2017,NBA,1,5,De'Aaron Fox,Kentucky,603,19892,12735,2352,3707,.472,.331,.747,33.0,21.1,3.9,6.1,40.3,.097,1.0,15.1
+2017,NBA,1,10,Zach Collins (↳POR),Gonzaga,388,7321,3110,1883,700,.485,.334,.765,18.9,8.0,4.9,1.8,12.4,.081,-1.4,1.0
+2017,NBA,2,34,Frank Mason,Kansas,103,1616,695,204,272,.396,.301,.755,15.7,6.7,2.0,2.6,1.2,.035,-2.7,-0.3
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2016,NBA,1,8,Marquese Chriss (↳PHO),Washington,292,5338,2206,1366,298,.456,.290,.667,18.3,7.6,4.7,1.0,6.5,.058,-2.4,-0.5
+2016,NBA,2,59,Isaiah Cousins,Oklahoma,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2015,NBA,1,6,Willie Cauley-Stein,Kentucky,422,9276,3675,2470,598,.544,.188,.612,22.0,8.7,5.9,1.4,23.3,.121,-0.1,4.4
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2014,NBA,1,8,Nik Stauskas,Michigan,343,6701,2290,691,515,.389,.354,.812,19.5,6.7,2.0,1.5,3.9,.028,-3.0,-1.7
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2013,NBA,1,7,Ben McLemore,Kansas,556,12534,5015,1269,563,.414,.363,.780,22.5,9.0,2.3,1.0,9.0,.035,-3.1,-3.4
+2013,NBA,2,36,Ray McCallum,Detroit Mercy,154,2808,920,306,368,.408,.335,.711,18.2,6.0,2.0,2.4,2.1,.035,-2.6,-0.4
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2012,NBA,1,5,Thomas Robinson,Kansas,313,4204,1528,1507,190,.470,.000,.505,13.4,4.9,4.8,0.6,4.6,.053,-3.5,-1.6
+2012,NBA,2,36,Orlando Johnson (↳IND),UC Santa Barbara,103,1112,329,180,69,.358,.311,.727,10.8,3.2,1.7,0.7,1.4,.059,-2.4,-0.1
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2011,NBA,1,7,Bismack Biyombo (↳CHA),,892,17053,4418,5135,587,.537,.000,.552,19.1,5.0,5.8,0.7,33.3,.094,-2.6,-2.6
+2011,NBA,2,35,Tyler Honeycutt,UCLA,24,120,28,24,9,.314,.200,.714,5.0,1.2,1.0,0.4,-0.1,-0.049,-5.1,-0.1
+2011,NBA,2,60,Isaiah Thomas,Washington,556,15582,9723,1321,2641,.434,.363,.872,28.0,17.5,2.4,4.8,45.3,.140,2.1,16.1
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2010,NBA,1,5,DeMarcus Cousins,Kentucky,654,19508,12802,6664,1979,.460,.331,.737,29.8,19.6,10.2,3.0,46.8,.115,2.4,21.6
+2010,NBA,2,33,Hassan Whiteside,Marshall,511,12645,6450,5523,327,.586,.308,.605,24.7,12.6,10.8,0.6,52.0,.197,2.5,14.5
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2009,NBA,1,4,Tyreke Evans,Memphis,594,18242,9347,2720,2852,.440,.323,.757,30.7,15.7,4.6,4.8,28.4,.075,0.8,13.1
+2009,NBA,1,23,Omri Casspi,,588,11959,4642,2355,662,.454,.368,.678,20.3,7.9,4.0,1.1,19.6,.078,-0.8,3.5
+2009,NBA,2,31,Jeff Ayres (↳POR),Arizona State,237,2322,690,632,99,.553,.400,.776,9.8,2.9,2.7,0.4,6.3,.131,-2.3,-0.2
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2008,NBA,1,12,Jason Thompson,Rider University,588,14819,5210,3880,635,.496,.143,.657,25.2,8.9,6.6,1.1,23.8,.077,-2.6,-2.4
+2008,NBA,2,42,Sean Singletary (↳HOU ↳PHO),Virginia,37,303,90,35,29,.365,.400,.857,8.2,2.4,0.9,0.8,0.0,.006,-5.1,-0.2
+2008,NBA,2,43,Patrick Ewing (↳HOU ↳NYK),Georgetown,7,19,3,2,2,.000,.000,.750,2.7,0.4,0.3,0.3,-0.1,-0.158,-9.1,0.0
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2007,NBA,1,10,Spencer Hawes,Washington,684,15541,5932,3893,1271,.457,.350,.716,22.7,8.7,5.7,1.9,22.6,.070,-1.1,3.4
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2006,NBA,1,19,Quincy Douby,Rutgers University,143,1535,588,152,93,.389,.312,.884,10.7,4.1,1.1,0.7,0.0,.000,-3.5,-0.6
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2005,NBA,1,23,Francisco GarcÃ­a,Louisville,549,11853,4323,1400,747,.427,.357,.799,21.6,7.9,2.6,1.4,18.2,.074,-0.1,5.7
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2004,NBA,1,26,Kevin Martin,Western Carolina University,714,21559,12396,2278,1352,.437,.384,.870,30.2,17.4,3.2,1.9,61.3,.137,1.0,16.1
+2004,NBA,2,48,Ricky Minard,Morehead State University,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2002,NBA,1,28,Dan Dickau (↳ATL),Gonzaga,300,4617,1745,405,752,.401,.341,.831,15.4,5.8,1.4,2.5,5.9,.061,-1.5,0.6
+2002,NBA,2,58,Corsley Edwards,Central Connecticut State University,10,110,27,25,3,.323,,.583,11.0,2.7,2.5,0.3,0.1,.026,-6.2,-0.1
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2001,NBA,1,25,Gerald Wallace,Alabama,832,24731,9933,4838,1725,.469,.312,.709,29.7,11.9,5.8,2.1,59.7,.116,1.8,23.5
+2001,NBA,2,55,Maurice Jeffers,Saint Louis,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+2000,NBA,1,16,Hedo TÃ¼rkoÄlu,,997,26695,11022,3971,2832,.426,.384,.784,26.8,11.1,4.0,2.8,63.3,.114,0.9,19.6
+2000,NBA,2,45,Jabari Smith,LSU,108,1063,329,178,66,.413,.125,.690,9.8,3.0,1.6,0.6,1.3,.058,-4.3,-0.6
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1999,NBA,2,45,Ryan Robertson,Kansas,1,25,5,0,0,.333,.000,1.000,25.0,5.0,0.0,0.0,0.0,-0.022,-5.4,0.0
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1998,NBA,1,7,Jason Williams,Florida,788,23188,8266,1810,4611,.398,.327,.813,29.4,10.5,2.3,5.9,38.5,.080,0.2,12.9
+1998,NBA,2,36,Jerome James,Florida A&M,358,4771,1540,1099,118,.485,.000,.617,13.3,4.3,3.1,0.3,2.9,.029,-4.9,-3.5
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1997,NBA,1,11,Tariq Abdul-Wahad,San Jose State,236,4807,1830,776,266,.417,.237,.703,20.4,7.8,3.3,1.1,3.5,.035,-3.0,-1.2
+1997,NBA,2,40,Anthony Johnson,College of Charleston,793,15552,4432,1358,2274,.414,.356,.745,19.6,5.6,1.7,2.9,23.2,.072,-1.5,2.0
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1996,NBA,1,14,Peja StojakoviÄ,,804,26966,13647,3782,1408,.450,.401,.895,33.5,17.0,4.7,1.8,82.6,.147,1.9,26.2
+1996,NBA,2,41,Jason Sasser,Texas Tech,14,108,30,15,4,.412,.333,.500,7.7,2.1,1.1,0.3,0.0,-0.014,-5.7,-0.1
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1995,NBA,1,13,Corliss Williamson,Arkansas,822,18749,9147,3183,972,.490,.136,.714,22.8,11.1,3.9,1.2,34.7,.089,-2.0,-0.1
+1995,NBA,2,47,Tyus Edney,UCLA,226,4743,1728,393,910,.405,.322,.806,21.0,7.6,1.7,4.0,6.8,.069,-1.5,0.7
+1995,NBA,2,51,Dejan Bodiroga,,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1994,NBA,1,8,Brian Grant,Xavier,756,21417,7933,5622,923,.490,.214,.746,28.3,10.5,7.4,1.2,54.5,.122,-0.8,6.2
+1994,NBA,2,35,Michael Smith,Providence,449,10552,2527,3193,661,.538,.143,.529,23.5,5.6,7.1,1.5,23.4,.107,-0.1,5.1
+1994,NBA,2,51,Lawrence Funderburke,Ohio State,318,4726,2031,1142,183,.506,.118,.675,14.9,6.4,3.6,0.6,12.9,.131,-0.5,1.8
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1993,NBA,1,7,Bobby Hurley,Duke,269,4170,1032,283,880,.353,.272,.769,15.5,3.8,1.1,3.3,-1.2,-0.014,-5.4,-3.5
+1993,NBA,2,31,Evers Burns,Maryland,23,143,56,30,9,.400,,.522,6.2,2.4,1.3,0.4,0.1,.020,-5.5,-0.1
+1993,NBA,2,44,Alex Holcombe,Baylor,,,,,,,,,,,,,,,,
+1993,NBA,2,52,Mike Peplowski,Michigan State,68,705,194,176,26,.556,.000,.531,10.4,2.9,2.6,0.4,1.0,.067,-4.5,-0.4
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1992,NBA,1,7,Walt Williams,Maryland,708,18818,8385,2794,1637,.425,.379,.743,26.6,11.8,3.9,2.3,33.9,.087,0.5,11.8
+1992,NBA,2,54,Brett Roberts,Morehead State University,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1991,NBA,1,3,Billy Owens (↳GSW),Syracuse,600,17619,7026,4016,1704,.481,.291,.629,29.4,11.7,6.7,2.8,28.6,.078,-0.2,7.8
+1991,NBA,1,27,Pete Chilcutt,UNC,584,8394,2494,1935,488,.441,.381,.696,14.4,4.3,3.3,0.8,10.6,.060,-1.8,0.3
+1991,NBA,2,31,Randy Brown,New Mexico State,655,11533,3148,1173,1420,.417,.200,.691,17.6,4.8,1.8,2.2,11.0,.046,-1.9,0.2
+1991,NBA,2,42,Steve Hood,James Madison University,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1990,NBA,1,7,Lionel Simmons,La Salle,454,13472,5833,2833,1498,.433,.305,.771,29.7,12.8,6.2,3.3,16.9,.060,0.0,6.7
+1990,NBA,1,14,Travis Mays,Texas,115,2964,1273,233,326,.410,.362,.749,25.8,11.1,2.0,2.8,2.4,.039,-2.6,-0.5
+1990,NBA,1,18,Duane Causwell,Temple,541,9409,2648,2273,243,.507,.286,.618,17.4,4.9,4.2,0.4,15.8,.081,-2.3,-0.7
+1990,NBA,1,23,Anthony Bonner,Saint Louis,318,7372,2199,1726,442,.468,.125,.590,23.2,6.9,5.4,1.4,10.8,.070,-2.0,0.1
+1990,NBA,2,40,Bimbo Coles (↳MIA),Virginia Tech,852,20319,6628,1820,3313,.425,.267,.811,23.8,7.8,2.1,3.9,27.4,.065,-1.6,1.9
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1989,NBA,1,1,Pervis Ellison,Louisville,474,11593,4494,3170,691,.510,.050,.689,24.5,9.5,6.7,1.5,21.8,.090,-0.5,4.4
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1988,NBA,1,18,Ricky Berry,San Jose State,64,1406,706,197,80,.450,.406,.789,22.0,11.0,3.1,1.3,2.4,.083,-1.7,0.1
+1988,NBA,2,29,Vinny Del Negro,NC State,771,19211,7038,1810,2484,.475,.359,.840,24.9,9.1,2.3,3.2,40.6,.101,-0.7,6.1
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1987,NBA,1,6,Kenny Smith,UNC,737,22213,9397,1454,4073,.480,.399,.829,30.1,12.8,2.0,5.5,46.8,.101,0.0,11.2
+1987,NBA,3,51,Sven Meyer,Oregon,,,,,,,,,,,,,,,,
+1987,NBA,4,74,Joe Arlauckas,Niagara University,9,85,34,13,8,.326,,.750,9.4,3.8,1.4,0.9,-0.1,-0.045,-6.8,-0.1
+1987,NBA,5,97,Vernon Carr,Michigan State,,,,,,,,,,,,,,,,
+1987,NBA,6,120,Daryl Thomas,Indiana,,,,,,,,,,,,,,,,
+1987,NBA,7,143,Scott Adubato,Upsala College,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1986,NBA,1,17,Harold Pressley,Villanova,299,6802,2702,1339,628,.437,.358,.778,22.7,9.0,4.5,2.1,10.0,.070,0.3,4.0
+1986,NBA,2,34,Johnny Rogers,"University of California, Irvine",69,636,251,104,29,.472,.000,.679,9.2,3.6,1.5,0.4,0.4,.032,-4.8,-0.4
+1986,NBA,3,57,Bruce Douglas,Illinois,8,98,14,14,17,.292,.000,.000,12.3,1.8,1.8,2.1,-0.2,-0.082,-3.0,0.0
+1986,NBA,4,80,Alvin Franklin,Houston,,,,,,,,,,,,,,,,
+1986,NBA,4,91,Bob Beecher,Virginia Tech,,,,,,,,,,,,,,,,
+1986,NBA,5,103,Keith Morrison,Washington State,,,,,,,,,,,,,,,,
+1986,NBA,6,126,John Flowers,UNLV,,,,,,,,,,,,,,,,
+1986,NBA,7,149,Ron Rankin,SE Missouri State,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1985,NBA,1,6,Joe Kleine,Arkansas,965,14712,4666,3991,622,.453,.271,.794,15.2,4.8,4.1,0.6,19.1,.062,-3.9,-7.0
+1985,NBA,3,51,Charles Bradley,South Florida,,,,,,,,,,,,,,,,
+1985,NBA,3,66,Michael Adams,Boston College,653,20446,9621,1900,4209,.415,.332,.849,31.3,14.7,2.9,6.4,46.9,.110,1.9,19.9
+1985,NBA,4,76,Willie Simmons,Louisiana Tech,,,,,,,,,,,,,,,,
+1985,NBA,5,98,Bob Lojewski,Saint Joseph's,,,,,,,,,,,,,,,,
+1985,NBA,6,120,Charles Balentine,Arkansas,,,,,,,,,,,,,,,,
+1985,NBA,7,145,Alton Lee Gipson,Florida State,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1984,NBA,1,9,Otis Thorpe,Providence,1257,39822,17600,10370,2730,.546,.047,.687,31.7,14.0,8.2,2.2,106.4,.128,-0.1,19.1
+1984,NBA,3,54,Roosevelt Chapman,Dayton,,,,,,,,,,,,,,,,
+1984,NBA,3,56,Jeff Allen,St. John's,,,,,,,,,,,,,,,,
+1984,NBA,4,80,Carl Henry,Kansas,28,149,78,19,4,.463,.400,.706,5.3,2.8,0.7,0.1,0.2,.049,-2.5,0.0
+1984,NBA,5,102,Jim Foster,South Carolina,,,,,,,,,,,,,,,,
+1984,NBA,6,126,Bruce Vanley,Tulsa,,,,,,,,,,,,,,,,
+1984,NBA,7,148,Chipper Harris,Robert Morris University (PA),,,,,,,,,,,,,,,,
+1984,NBA,8,172,Nate Rollins,Fort Hays State University,,,,,,,,,,,,,,,,
+1984,NBA,9,193,Greg Turner,Auburn,,,,,,,,,,,,,,,,
+1984,NBA,10,216,Victor Coleman,Northwest Missouri State University,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1983,NBA,1,13,Ennis Whatley (↳CHI),Alabama,385,7108,2150,679,1754,.468,.097,.755,18.5,5.6,1.8,4.6,9.6,.065,-0.9,2.0
+1983,NBA,2,38,Chris McNealy (↳CHI),San Jose State,108,1864,466,494,110,.456,,.658,17.3,4.3,4.6,1.0,2.6,.066,-1.9,0.0
+1983,NBA,3,60,Steve Harriel,Washington State,,,,,,,,,,,,,,,,
+1983,NBA,4,84,Mike Jackson,Wyoming,,,,,,,,,,,,,,,,
+1983,NBA,5,106,Lorenza Andrews,Oklahoma State,,,,,,,,,,,,,,,,
+1983,NBA,6,130,Alvis Rogers,Wake Forest,,,,,,,,,,,,,,,,
+1983,NBA,7,152,Dane Suttle,Pepperdine,46,493,272,49,48,.507,.000,.857,10.7,5.9,1.1,1.0,1.0,.093,-0.5,0.2
+1983,NBA,8,176,Preston Neumayr,UC-Davis,,,,,,,,,,,,,,,,
+1983,NBA,9,197,Bernard Hill,Oklahoma Panhandle State University,,,,,,,,,,,,,,,,
+1983,NBA,10,219,Aaron Haskins,Washington State,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1982,NBA,1,5,LaSalle Thompson,Texas,985,21238,7806,6689,1139,.492,.154,.737,21.6,7.9,6.8,1.2,35.0,.079,-1.5,2.7
+1982,NBA,1,17,Brook Steppe,Georgia Tech,238,2858,1297,345,280,.469,.310,.820,12.0,5.4,1.4,1.2,4.6,.078,-1.8,0.2
+1982,NBA,3,51,Jim Johnstone (↳ATL ↳SAS),Wake Forest,23,191,31,46,11,.367,,.450,8.3,1.3,2.0,0.5,-0.1,-0.020,-4.4,-0.2
+1982,NBA,4,74,Mike Sanders,UCLA,648,12391,5162,1927,880,.482,.221,.769,19.1,8.0,3.0,1.4,17.9,.069,-2.3,-0.9
+1982,NBA,5,97,Kenny Simpson,Grambling State University,,,,,,,,,,,,,,,,
+1982,NBA,6,120,Poncho Wright,Louisville,,,,,,,,,,,,,,,,
+1982,NBA,7,143,Perry Range,Illinois,,,,,,,,,,,,,,,,
+1982,NBA,8,166,Ed Nealy,Kansas State,540,6792,1451,1799,392,.498,.292,.684,12.6,2.7,3.3,0.7,15.2,.107,-0.7,2.2
+1982,NBA,9,189,Jack Moore,Nebraska,,,,,,,,,,,,,,,,
+1982,NBA,10,210,Robert Estes,Iowa State,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1981,NBA,1,7,Steve Johnson,Oregon State,626,13618,7345,3450,777,.572,.000,.634,21.8,11.7,5.5,1.2,26.9,.095,-1.7,1.1
+1981,NBA,1,17,Kevin Loder,Alabama State University,148,2094,875,338,174,.461,.261,.695,14.1,5.9,2.3,1.2,2.4,.055,-1.7,0.2
+1981,NBA,2,29,Eddie Johnson,Illinois,1199,32604,19202,4832,2550,.472,.335,.840,27.2,16.0,4.0,2.1,65.6,.097,-0.7,11.0
+1981,NBA,3,58,Curtis Berry,Missouri,,,,,,,,,,,,,,,,
+1981,NBA,4,78,Kenny Dennard,Duke,95,1244,268,286,93,.429,.300,.644,13.1,2.8,3.0,1.0,1.4,.056,-1.5,0.2
+1981,NBA,4,82,B.B. Davis,Lamar,,,,,,,,,,,,,,,,
+1981,NBA,5,104,U.S. Reed,Arkansas,,,,,,,,,,,,,,,,
+1981,NBA,6,128,Brian Walker,Purdue,,,,,,,,,,,,,,,,
+1981,NBA,7,150,Clinton Wheeler,William Paterson University,87,867,254,71,157,.489,.000,.741,10.0,2.9,0.8,1.8,1.1,.058,0.0,0.4
+1981,NBA,8,173,Randy Smithson,Wichita State,,,,,,,,,,,,,,,,
+1981,NBA,9,194,Mike Perry,Richmond,,,,,,,,,,,,,,,,
+1981,NBA,10,214,Mark Wilson,Fort Hays State University,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1980,NBA,1,16,Hawkeye Whitney,NC State,70,1048,404,146,87,.462,.286,.750,15.0,5.8,2.1,1.2,1.3,.062,-1.6,0.1
+1980,NBA,3,62,Tony Murphy,Southern University and A&M College,,,,,,,,,,,,,,,,
+1980,NBA,5,108,Kelvin Blakely,Eastern Michigan,,,,,,,,,,,,,,,,
+1980,NBA,6,131,Trent Grooms,Kent State University,,,,,,,,,,,,,,,,
+1980,NBA,7,154,Arnold McDowell,Montana State,,,,,,,,,,,,,,,,
+1980,NBA,9,193,Charley Cole,Delta State University,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1979,NBA,1,18,Reggie King,Alabama,438,11345,3898,2707,691,.514,.000,.699,25.9,8.9,6.2,1.6,24.8,.105,-0.4,4.6
+1979,NBA,3,62,Terry Crosby,Tennessee,4,28,6,1,7,.500,,1.000,7.0,1.5,0.3,1.8,0.0,-0.051,-4.8,0.0
+1979,NBA,4,85,John McCullough,Oklahoma,8,23,21,4,3,.692,,.600,2.9,2.6,0.5,0.4,0.1,.239,-2.4,0.1
+1979,NBA,5,105,Curtis Watkins,DePaul,,,,,,,,,,,,,,,,
+1979,NBA,6,126,Bob Roma,Princeton,,,,,,,,,,,,,,,,
+1979,NBA,7,145,Nick Daniels,Xavier,,,,,,,,,,,,,,,,
+1979,NBA,8,164,Tony Vann,,,,,,,,,,,,,,,,,
+1979,NBA,9,181,Gary Wilson,Southern Illinois,,,,,,,,,,,,,,,,
+1979,NBA,10,200,Russell Saunders,New Mexico,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1978,NBA,1,2,Phil Ford,UNC,482,13503,5594,854,3083,.467,,.820,28.0,11.6,1.8,6.4,23.3,.083,-0.8,4.1
+1978,NBA,3,49,Jeff Cook,Idaho State University,518,9697,2734,2334,707,.462,.056,.716,18.7,5.3,4.5,1.4,17.7,.088,-1.4,1.6
+1978,NBA,3,52,Mike Russell,Texas Tech,,,,,,,,,,,,,,,,
+1978,NBA,4,70,Jeffrey Crompton (↳DEN),UNC,82,495,99,139,28,.370,,.442,6.0,1.2,1.7,0.3,-0.1,-0.009,-4.3,-0.4
+1978,NBA,5,93,Derrick Clairborne,UMass,,,,,,,,,,,,,,,,
+1978,NBA,6,114,Jim Krivacs,Texas,,,,,,,,,,,,,,,,
+1978,NBA,7,136,Charles McMillian,University of North Texas,,,,,,,,,,,,,,,,
+1978,NBA,8,155,Ron Hammye,Bowling Green,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1977,NBA,1,2,Otis Birdsong,Houston,696,21627,12544,2072,2260,.506,,.655,31.1,18.0,3.0,3.2,48.2,.107,0.6,14.3
+1977,NBA,2,31,Eddie Owens,UNLV,8,63,21,10,5,.429,,.500,7.9,2.6,1.3,0.6,0.0,.027,-3.9,0.0
+1977,NBA,3,45,Bill Paterno,Notre Dame,,,,,,,,,,,,,,,,
+1977,NBA,3,53,John Kuester,UNC,135,1527,451,141,305,.427,,.833,11.3,3.3,1.0,2.3,2.0,.064,-1.9,0.1
+1977,NBA,4,75,Larry Williams,Texas Southern,,,,,,,,,,,,,,,,
+1977,NBA,5,97,Bob Chapman,Michigan State,,,,,,,,,,,,,,,,
+1977,NBA,6,119,Bob Cooper,Providence,,,,,,,,,,,,,,,,
+1977,NBA,7,139,Caitlyn Jenner,Graceland University,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1976,NBA,1,3,Richard Washington,UCLA,351,7874,3456,2204,409,.453,,.711,22.4,9.8,6.3,1.2,10.8,.066,-2.5,-1.1
+1976,NBA,4,54,Clarence Ramsey,Washington,,,,,,,,,,,,,,,,
+1976,NBA,5,71,Willie Hodge,Duke,,,,,,,,,,,,,,,,
+1976,NBA,6,89,Andre McCarter,UCLA,103,1182,392,95,172,.431,,.725,11.5,3.8,0.9,1.7,1.1,.046,-2.5,-0.2
+1976,NBA,7,107,Craig Prosser,Canisius,,,,,,,,,,,,,,,,
+1976,NBA,8,125,Mike Davis,Bradley,,,,,,,,,,,,,,,,
+1976,NBA,9,143,Dave Logan,Colorado,,,,,,,,,,,,,,,,
+1976,NBA,10,160,Terry Bailey,University of North Texas,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1975,NBA,1,10,Bill Robinzine,DePaul,529,11432,5541,3209,560,.482,,.749,21.6,10.5,6.1,1.1,23.3,.098,-1.8,0.5
+1975,NBA,1,13,Bob Bigelow,Penn,94,762,234,111,42,.414,,.732,8.1,2.5,1.2,0.4,0.5,.029,-3.3,-0.2
+1975,NBA,2,31,Glenn Hansen,LSU,112,1447,588,247,93,.412,,.725,12.9,5.3,2.2,0.8,1.0,.034,-2.9,-0.4
+1975,NBA,3,49,Bob Guyette,Kentucky,,,,,,,,,,,,,,,,
+1975,NBA,4,67,Kevin Cluess,St. John's,,,,,,,,,,,,,,,,
+1975,NBA,5,85,Ed Stahl,UNC,,,,,,,,,,,,,,,,
+1975,NBA,6,103,Clint Chapman,USC,,,,,,,,,,,,,,,,
+1975,NBA,7,121,Wayne Croft,Clemson,,,,,,,,,,,,,,,,
+1975,NBA,8,139,Jim Bostic,New Mexico State,4,48,26,16,3,.545,,.400,12.0,6.5,4.0,0.8,0.1,.144,-2.7,0.0
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1974,NBA,1,6,Scott Wedman,Colorado,906,25927,11916,4355,1771,.481,,.794,28.6,13.2,4.8,2.0,53.7,.099,-0.4,10.5
+1974,NBA,2,24,Len Kosmalski,Tennessee,76,506,110,144,53,.398,,.778,6.7,1.4,1.9,0.7,0.6,.052,-2.4,0.0
+1974,NBA,4,60,Lloyd Batts,Cincinnati,,,,,,,,,,,,,,,,
+1974,NBA,5,78,Terry Compton,Vanderbilt,,,,,,,,,,,,,,,,
+1974,NBA,6,96,Ron Kennedy,Arizona,,,,,,,,,,,,,,,,
+1974,NBA,7,114,Mark Brown,Missouri Western State College,,,,,,,,,,,,,,,,
+1974,NBA,8,132,Richie O'Connor,Fairfield,,,,,,,,,,,,,,,,
+1974,NBA,9,150,Jeff Dawson,Illinois,,,,,,,,,,,,,,,,
+1974,NBA,10,167,Dennis White,Arkansas,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1973,NBA,1,7,Ron Behagen,Minnesota,388,9131,3977,2712,624,.425,,.754,23.5,10.3,7.0,1.6,13.0,.068,-2.1,-0.2
+1973,NBA,2,20,Mike D'Antoni,Marshall,130,1858,432,186,248,.392,,.736,14.3,3.3,1.4,1.9,0.9,.023,-1.2,0.3
+1973,NBA,2,25,Larry McNeill,Marquette,297,5094,2533,1440,225,.466,,.779,17.2,8.5,4.8,0.8,13.4,.127,-0.9,1.5
+1973,NBA,5,76,M.L. Carr,Guilford College,604,14216,5853,2595,1112,.470,,.746,23.5,9.7,4.3,1.8,29.0,.098,0.3,8.4
+1973,NBA,6,93,Mike Quick,San Francisco,,,,,,,,,,,,,,,,
+1973,NBA,7,110,Mike Jeffries,Missouri,,,,,,,,,,,,,,,,
+1973,NBA,8,127,Mike Williams,Kentucky Wesleyan College,,,,,,,,,,,,,,,,
+1973,NBA,9,143,James Brown,Dartmouth College,,,,,,,,,,,,,,,,
+1973,NBA,10,157,Ernie Kusnyer,Kansas State,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1972,NBA,2,19,Sam Sibert,Kentucky State University,5,26,12,4,0,.308,,.800,5.2,2.4,0.8,0.0,-0.1,-0.105,,
+1972,NBA,2,28,Mike Ratliff,University of Wisconsin-Eau Claire,60,685,241,194,38,.417,,.536,11.4,4.0,3.2,0.6,-0.2,-0.014,-4.6,0.0
+1972,NBA,3,38,Ron Riley,USC,264,4852,1542,1368,318,.419,,.691,18.4,5.8,5.2,1.2,2.5,.024,-2.2,-0.2
+1972,NBA,4,53,Frank Schade,University of Wisconsin-Eau Claire,9,76,10,6,10,.286,,1.000,8.4,1.1,0.7,1.1,0.0,.031,,
+1972,NBA,5,68,David Bustion,Denver,,,,,,,,,,,,,,,,
+1972,NBA,6,86,Jerry Crocker,Guilford College,,,,,,,,,,,,,,,,
+1972,NBA,7,102,Mike Sneed,Fayetteville State University,,,,,,,,,,,,,,,,
+1972,NBA,8,119,Jerry Clack,Oklahoma State,,,,,,,,,,,,,,,,
+1972,NBA,9,134,Steve McMahon,Merrimack College,,,,,,,,,,,,,,,,
+1972,NBA,10,148,David Hall,Kansas State,,,,,,,,,,,,,,,,
+1972,NBA,11,159,Floyd Mathew,Northern Arizona University,,,,,,,,,,,,,,,,
+1972,NBA,12,168,Len Baltimore,George Washington,,,,,,,,,,,,,,,,
+1972,NBA,13,177,Kent Scott,Pitt,,,,,,,,,,,,,,,,
+1972,NBA,14,183,Bob Allen,Missouri,,,,,,,,,,,,,,,,
+1972,NBA,15,190,Mike Jeffries,Oklahoma State,,,,,,,,,,,,,,,,
+1972,NBA,16,195,Mike Peterson,Nebraska,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1971,NBA,1,4,Ken Durrett,La Salle,120,1205,484,233,54,.434,,.637,10.0,4.0,1.9,0.5,0.6,.025,-3.9,-0.5
+1971,NBA,2,21,John Mengelt,Auburn,636,12788,6218,1221,1329,.479,,.809,20.1,9.8,1.9,2.1,27.9,.105,-1.1,2.2
+1971,NBA,2,31,Joe Bergman,Creighton,,,,,,,,,,,,,,,,
+1971,NBA,3,38,Rich Yunkus,Georgia Tech,,,,,,,,,,,,,,,,
+1971,NBA,4,55,Sid Catlett,Notre Dame,9,40,6,4,1,.222,,.222,4.4,0.7,0.4,0.1,-0.2,-0.197,,
+1971,NBA,5,72,Jimmie Guymon,Eastern New Mexico University,,,,,,,,,,,,,,,,
+1971,NBA,5,73,Tyrone Marioneaux,Loyola New Orleans,,,,,,,,,,,,,,,,
+1971,NBA,6,89,Gil McGregor,Wake Forest,42,532,171,148,18,.363,,.696,12.7,4.1,3.5,0.4,-0.4,-0.038,,
+1971,NBA,7,106,Ollie Shannon,Minnesota,,,,,,,,,,,,,,,,
+1971,NBA,8,123,Frank Fitzgerald,Boston College,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1970,NBA,1,5,Sam Lacey,New Mexico State,1002,31873,10303,9687,3754,.441,,.738,31.8,10.3,9.7,3.7,50.9,.077,2.4,25.9
+1970,NBA,2,19,Tiny Archibald,Texas-El Paso,876,31159,16481,2046,6476,.467,,.810,35.6,18.8,2.3,7.4,83.4,.128,0.4,12.9
+1970,NBA,2,22,Doug Cook,Davidson,,,,,,,,,,,,,,,,
+1970,NBA,3,39,Greg Hyder,Eastern New Mexico University,77,1359,417,332,48,.447,,.718,17.6,5.4,4.3,0.6,1.1,.040,,
+1970,NBA,4,56,Wade Fuller,Loyola Chicago,,,,,,,,,,,,,,,,
+1970,NBA,5,73,Uluss Thompson,Wiley College,,,,,,,,,,,,,,,,
+1970,NBA,6,90,Charles Bishop,Louisiana Tech,,,,,,,,,,,,,,,,
+1970,NBA,7,107,Mike Bernard,Kentucky State University,,,,,,,,,,,,,,,,
+1970,NBA,8,124,Joel McBride,Augusta State University,,,,,,,,,,,,,,,,
+1970,NBA,9,141,Bob Mabry,University of Rio Grande,,,,,,,,,,,,,,,,
+1970,NBA,10,158,Carl Johnson,Gustavus Adolphus,,,,,,,,,,,,,,,,
+1970,NBA,11,173,Ted Hillary,Saint Joseph's College,,,,,,,,,,,,,,,,
+1970,NBA,12,186,Reggie Roach,Virginia State University,,,,,,,,,,,,,,,,
+1970,NBA,13,196,Larry Gray,Huston-Tillotson University,,,,,,,,,,,,,,,,
+1970,NBA,14,206,Andy Jennings,Alderson-Broaddus College,,,,,,,,,,,,,,,,
+1970,NBA,15,216,Mike Neer,Washington & Lee University,,,,,,,,,,,,,,,,
+1970,NBA,16,225,Paul Favorite,Georgetown,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1969,NBA,1,8,Herm Gilliam,Purdue,578,15026,6252,2175,2225,.441,,.792,26.0,10.8,3.8,3.8,20.8,.066,-0.1,3.2
+1969,NBA,3,37,Luther Rackley,Xavier,221,3443,1337,1003,143,.451,,.626,15.6,6.0,4.5,0.6,4.7,.065,-3.4,0.0
+1969,NBA,3,41,Luther Green,Long Island University,5,32,3,3,0,.000,,.333,6.4,0.6,0.6,0.0,-0.3,-0.444,,
+1969,NBA,4,51,Ron Sanford,New Mexico,,,,,,,,,,,,,,,,
+1969,NBA,5,65,Jake Ford,University of Maryland Eastern Shore,31,249,126,20,35,.462,,.764,8.0,4.1,0.6,1.1,0.7,.133,,
+1969,NBA,6,79,Mel Coleman,University of Wisconsin-Stout,,,,,,,,,,,,,,,,
+1969,NBA,7,93,L.C. Bowen,Bradley,,,,,,,,,,,,,,,,
+1969,NBA,8,107,Merton Bancroft,Missouri State,,,,,,,,,,,,,,,,
+1969,NBA,9,121,James Hurley,Transylvania University,,,,,,,,,,,,,,,,
+1969,NBA,10,135,Bill Bowes,Elon University,,,,,,,,,,,,,,,,
+1969,NBA,11,149,Jim Supple,Georgetown,,,,,,,,,,,,,,,,
+1969,NBA,12,162,Mike Davis,Colorado State,,,,,,,,,,,,,,,,
+1969,NBA,13,174,Ted Johnson,Baldwin-Wallace College,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1968,NBA,1,5,Zaid Abdul-Aziz,Iowa State,505,11023,4557,4065,601,.428,,.728,21.8,9.0,8.0,1.2,17.5,.076,0.4,2.7
+1968,NBA,3,27,Pat Frink,Colorado,48,363,123,41,55,.340,,.793,7.6,2.6,0.9,1.1,-0.5,-0.064,,
+1968,NBA,3,28,Fred Foster,Miami University,524,9116,4093,1275,601,.414,,.727,17.4,7.8,2.4,1.1,2.9,.016,-4.3,-1.4
+1968,NBA,4,41,Daniel Sparks,Weber State,,,,,,,,,,,,,,,,
+1968,NBA,5,55,Jim Kissane,Boston College,,,,,,,,,,,,,,,,
+1968,NBA,6,69,Calvin Martin,Texas Southern,,,,,,,,,,,,,,,,
+1968,NBA,7,83,Dick Dumas,Northeastern State University,,,,,,,,,,,,,,,,
+1968,NBA,8,97,Dave Williams,Mississippi State,,,,,,,,,,,,,,,,
+1968,NBA,9,111,Butch Joyner,Indiana,,,,,,,,,,,,,,,,
+1968,NBA,10,125,Bo Wyenandt,Vanderbilt,,,,,,,,,,,,,,,,
+1968,NBA,11,139,James Robinson,Rochester Institute of Technology,,,,,,,,,,,,,,,,
+1968,NBA,12,152,Glynn Saulters,Louisiana-Monroe,,,,,,,,,,,,,,,,
+1968,NBA,13,165,Billy Tindall,UMass,,,,,,,,,,,,,,,,
+1968,NBA,14,176,Charles Core,Southeastern Louisiana University,,,,,,,,,,,,,,,,
+1968,NBA,15,185,Mike Drespling,Westminster College of Pennsylvania,,,,,,,,,,,,,,,,
+1968,NBA,16,193,Dick Harris,Manchester University,,,,,,,,,,,,,,,,
+1968,NBA,17,201,John Howard,Cincinnati,,,,,,,,,,,,,,,,
+1968,NBA,18,207,Larry Humes,University of Evansville,,,,,,,,,,,,,,,,
+1968,NBA,19,211,Ray Jeffords,Georgia,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1967,NBA,1,9,Mel Daniels,New Mexico,11,126,39,34,6,.371,,.565,11.5,3.5,3.1,0.5,0.0,-0.002,-4.3,-0.1
+1967,NBA,3,26,Gary Gray,Oklahoma City University,44,276,105,23,26,.366,,.700,6.3,2.4,0.5,0.6,-0.5,-0.093,,
+1967,NBA,3,28,Sam Smith,Kentucky Wesleyan College,,,,,,,,,,,,,,,,
+1967,NBA,4,38,Louie Dampier,Kentucky,232,4431,1553,261,643,.488,,.748,19.1,6.7,1.1,2.8,6.7,.073,-1.0,1.1
+1967,NBA,5,50,Trooper Washington,Cheyney (PA),,,,,,,,,,,,,,,,
+1967,NBA,6,62,Frank Stronczek,American International College,,,,,,,,,,,,,,,,
+1967,NBA,7,74,Charles Beasley,SMU,,,,,,,,,,,,,,,,
+1967,NBA,8,86,Frank Hollendoner,Georgetown,,,,,,,,,,,,,,,,
+1967,NBA,9,97,Ron Sepic,Ohio State,,,,,,,,,,,,,,,,
+1967,NBA,10,108,Willie Davis,University of North Texas,,,,,,,,,,,,,,,,
+1967,NBA,11,118,Ken Calloway,Cincinnati,,,,,,,,,,,,,,,,
+1967,NBA,12,129,Frank Frank Gaidjunas,Villanova,,,,,,,,,,,,,,,,
+1967,NBA,13,138,John Moates,Richmond,,,,,,,,,,,,,,,,
+1967,NBA,14,144,Jerry Pettway,Northwood University,,,,,,,,,,,,,,,,
+1967,NBA,15,150,Earl Beechum,Midwestern State University,,,,,,,,,,,,,,,,
+1967,NBA,16,155,John Vermilyea,Morningside College,,,,,,,,,,,,,,,,
+1967,NBA,17,158,Darryl Meachem,Edinboro University of Pennsylvania,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1966,NBA,1,6,Walt Wesley,Kansas,590,10306,5002,3243,385,.434,,.630,17.5,8.5,5.5,0.7,9.5,.044,-2.7,-0.1
+1966,NBA,2,16,Jerry Lee Wells,Oklahoma City University,,,,,,,,,,,,,,,,
+1966,NBA,3,26,Jim Ware,Oklahoma City University,63,429,143,146,13,.284,,.647,6.8,2.3,2.3,0.2,-1.1,-0.125,,
+1966,NBA,4,36,Charles Schmaus,Virginia Military Institute,,,,,,,,,,,,,,,,
+1966,NBA,5,47,Richard Parks,Saint Louis,,,,,,,,,,,,,,,,
+1966,NBA,6,56,Steve Cunningham,Western Kentucky,,,,,,,,,,,,,,,,
+1966,NBA,7,65,Gary Schull,Florida State,,,,,,,,,,,,,,,,
+1966,NBA,8,74,Ron Krick,Cincinnati,,,,,,,,,,,,,,,,
+1966,NBA,9,81,Billy Smith,Loyola Chicago,,,,,,,,,,,,,,,,
+1966,NBA,10,88,Freddie Lewis,Arizona State,64,886,373,91,96,.401,,.771,13.8,5.8,1.4,1.5,0.6,.031,-3.7,-0.2
+1966,NBA,11,95,R.B. Lynam,Oklahoma Baptist University,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1965,NBA,1,9,Nate Bowman,Wichita State,243,2171,702,791,162,.390,,.527,8.9,2.9,3.3,0.7,1.3,.030,,
+1965,NBA,2,18,Flynn Robinson,Wyoming,494,11569,7147,1294,1516,.456,,.849,23.4,14.5,2.6,3.1,31.3,.130,,
+1965,NBA,3,27,Jon McGlocklin,Indiana,792,20930,9169,1928,2280,.489,,.845,26.4,11.6,2.4,2.9,47.1,.108,-1.5,0.5
+1965,NBA,4,36,Bob Love,Southern University and A&M College,789,25120,13895,4653,1123,.429,,.805,31.8,17.6,5.9,1.4,50.4,.096,-1.8,0.4
+1965,NBA,5,45,Warren Isaac,Iona College,,,,,,,,,,,,,,,,
+1965,NBA,6,54,Leon Clements,Ouachita Baptist University,,,,,,,,,,,,,,,,
+1965,NBA,7,62,Jeff Gehring,Miami University,,,,,,,,,,,,,,,,
+1965,NBA,8,70,Jim Fox,South Carolina,743,17294,6945,5525,1201,.479,,.770,23.3,9.3,7.4,1.6,41.8,.116,-0.1,2.8
+1965,NBA,9,76,Ron Krick,Cincinnati,,,,,,,,,,,,,,,,
+1965,NBA,10,82,Richie Dec,Seton Hall,,,,,,,,,,,,,,,,
+1965,NBA,11,88,Dick Maile,LSU,,,,,,,,,,,,,,,,
+1965,NBA,12,94,Robert McCollough,Benedict College,,,,,,,,,,,,,,,,
+1965,NBA,13,99,Oliver Jones,Albany State University,,,,,,,,,,,,,,,,
+1965,NBA,14,103,Larry Franks,Texas,,,,,,,,,,,,,,,,
+1965,NBA,15,107,Ronald Scharf,Georgia Tech,,,,,,,,,,,,,,,,
+1965,NBA,16,111,Willie Porter,Tennessee State,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1964,NBA,1T,8,George Wilson,Cincinnati,410,5768,2216,2144,307,.372,,.677,14.1,5.4,5.2,0.7,0.5,.004,,
+1964,NBA,2,17,Bill Chmielewski,Dayton,,,,,,,,,,,,,,,,
+1964,NBA,3,26,Steve Courtin,Saint Joseph's,24,317,101,22,22,.408,,.810,13.2,4.2,0.9,0.9,0.2,.036,,
+1964,NBA,4,35,Happy Hairston,NYU,776,24330,11505,8019,1268,.478,,.741,31.4,14.8,10.3,1.6,70.0,.138,0.5,3.1
+1964,NBA,5,44,George Kirk,Memphis,,,,,,,,,,,,,,,,
+1964,NBA,6,53,Al Thrasher,Wittenberg University,,,,,,,,,,,,,,,,
+1964,NBA,7,62,Vic Rouse,Loyola Chicago,,,,,,,,,,,,,,,,
+1964,NBA,8,71,Joe Geiger,Xavier,,,,,,,,,,,,,,,,
+1964,NBA,9,78,Scotty Pierce,West Texas A&M University,,,,,,,,,,,,,,,,
+1964,NBA,10,85,Bob Neumann,Memphis,,,,,,,,,,,,,,,,
+1964,NBA,11,91,Jim Reynolds,Abilene Christian University,,,,,,,,,,,,,,,,
+1964,NBA,12,95,Fred Jones,Youngstown State University,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1963,NBA,1T,5,Tom Thacker,Cincinnati,218,2187,721,522,222,.371,,.482,10.0,3.3,2.4,1.0,-0.6,-0.014,,
+1963,NBA,3,23,Jimmy Rayl,Indiana,,,,,,,,,,,,,,,,
+1963,NBA,4,32,Ken Charlton,Colorado,,,,,,,,,,,,,,,,
+1963,NBA,5,41,Mack Herndon,Bradley,,,,,,,,,,,,,,,,
+1963,NBA,6,50,Jim McCormick,West Virginia,,,,,,,,,,,,,,,,
+1963,NBA,7,59,Hunter Beckman,Memphis,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1962,NBA,1T,6,Jerry Lucas,Ohio State,829,32131,14053,12942,2732,.499,,.783,38.8,17.0,15.6,3.3,98.4,.147,1.3,1.4
+1962,NBA,2,15,Bud Olsen,Louisville,369,4218,1592,1111,293,.423,,.553,11.4,4.3,3.0,0.8,3.4,.038,,
+1962,NBA,3,24,Chris Appel,USC,,,,,,,,,,,,,,,,
+1962,NBA,4,33,Jack Thobe,Xavier,,,,,,,,,,,,,,,,
+1962,NBA,5,42,Mike Wroblewski,Kansas State,,,,,,,,,,,,,,,,
+1962,NBA,6,51,Jerry Foster,Drake University,,,,,,,,,,,,,,,,
+1962,NBA,7,60,Gary Cunningham,UCLA,,,,,,,,,,,,,,,,
+1962,NBA,8,68,Ed Bento,Loyola Marymount,,,,,,,,,,,,,,,,
+1962,NBA,9,77,Chris Jones,Carson-Newman College,,,,,,,,,,,,,,,,
+1962,NBA,10,85,George Knighton,New Mexico State,,,,,,,,,,,,,,,,
+1962,NBA,11,90,Frank Pinchback,Xavier,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1961,NBA,1,3,Larry Siegfried,Ohio State,550,13632,5960,1567,1950,.409,,.854,24.8,10.8,2.8,3.5,33.1,.116,,
+1961,NBA,2,16,Bob Wiesenhahn,Cincinnati,60,326,119,112,23,.317,,.567,5.4,2.0,1.9,0.4,-0.7,-0.107,,
+1961,NBA,3,25,Bevo Nordmann,Saint Louis,133,1628,571,517,73,.459,,.490,12.2,4.3,3.9,0.5,2.0,.059,,
+1961,NBA,4,34,Lowery Kirk,Memphis,,,,,,,,,,,,,,,,
+1961,NBA,5,43,Rossie Johnson,Tennessee State,,,,,,,,,,,,,,,,
+1961,NBA,6,52,Bob Slobodnik,Duquesne,,,,,,,,,,,,,,,,
+1961,NBA,7,61,Dave Zeller,Miami University,61,278,90,27,58,.353,,.750,4.6,1.5,0.4,1.0,-0.1,-0.010,,
+1961,NBA,8,70,Gerry Thelen,Thomas More College,,,,,,,,,,,,,,,,
+1961,NBA,9,78,Larry Kruger,Ohio University,,,,,,,,,,,,,,,,
+1961,NBA,10,85,Jack Waters,Ole Miss,,,,,,,,,,,,,,,,
+1961,NBA,11,93,Carl Short,Newberry College,,,,,,,,,,,,,,,,
+1961,NBA,12,100,George Patterson,Toledo,59,559,120,159,51,.331,,.842,9.5,2.0,2.7,0.9,0.1,.007,,
+1961,NBA,13,103,Clair McRoberts,Monmouth University,,,,,,,,,,,,,,,,
+1961,NBA,14,106,Carl Bouldin,Cincinnati,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1960,NBA,1T,1,Oscar Robertson,Cincinnati,1040,43886,26710,7804,9887,.485,,.838,42.2,25.7,7.5,9.5,189.2,.207,-0.1,1.2
+1960,NBA,2,9,Jay Arnette,Texas,114,1177,424,116,139,.365,,.760,10.3,3.7,1.0,1.2,0.1,.006,,
+1960,NBA,3,17,Ralph Davis,Cincinnati,150,3202,1195,248,424,.409,,.677,21.3,8.0,1.7,2.8,0.4,.006,,
+1960,NBA,4,25,Dalen Showalter,Tennessee,,,,,,,,,,,,,,,,
+1960,NBA,5,33,Don Ogorek,Seattle University,,,,,,,,,,,,,,,,
+1960,NBA,6,41,Bobby Joe Mason,Bradley,,,,,,,,,,,,,,,,
+1960,NBA,7,49,Frank Sobrero,Santa Clara,,,,,,,,,,,,,,,,
+1960,NBA,8,56,Sam Stith,St. Bonaventure,32,440,141,51,60,.364,,.605,13.8,4.4,1.6,1.9,-0.1,-0.006,,
+1960,NBA,9,63,Al Nealey,Arizona State,,,,,,,,,,,,,,,,
+1960,NBA,10,70,Lon Sizemore,West Virginia Tech,,,,,,,,,,,,,,,,
+1960,NBA,11,75,Dennis Boone,Regis University,,,,,,,,,,,,,,,,
+1960,NBA,12,80,Ron Altenberg,Cornell College,,,,,,,,,,,,,,,,
+1960,NBA,13,85,John Milhoan,Marshall,,,,,,,,,,,,,,,,
+1960,NBA,14,89,Larry Chanay,Montana State,,,,,,,,,,,,,,,,
+1960,NBA,15,91,Ducky Potter,Moravian College,,,,,,,,,,,,,,,,
+1960,NBA,16,93,Gene Jordan,Northwest Missouri State University,,,,,,,,,,,,,,,,
+1960,NBA,17,95,Ernie McCray,Arizona,,,,,,,,,,,,,,,,
+1960,NBA,18,97,Don Mills,Kentucky,,,,,,,,,,,,,,,,
+1960,NBA,19,99,Larry Willey,Cincinnati,,,,,,,,,,,,,,,,
+1960,NBA,20,100,Tony Wilcox,Wittenberg University,,,,,,,,,,,,,,,,
+1960,NBA,21,101,Jim McDonald,West Virginia Wesleyan College,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1959,NBA,1,1,Bob Boozer,Kansas State,874,25549,12964,7119,1237,.462,,.761,29.2,14.8,8.1,1.4,64.2,.121,,
+1959,NBA,3,17,Mike Mendenhall,Cincinnati,,,,,,,,,,,,,,,,
+1959,NBA,4,25,Leo Byrd,Marshall,,,,,,,,,,,,,,,,
+1959,NBA,5,33,Harry Kirchner,TCU,,,,,,,,,,,,,,,,
+1959,NBA,6,41,Don Hennon,Pitt,,,,,,,,,,,,,,,,
+1959,NBA,7,49,Dale Moore,Eastern Kentucky University,,,,,,,,,,,,,,,,
+1959,NBA,8,56,Don Matuszak,Kansas State,,,,,,,,,,,,,,,,
+1959,NBA,9,62,Joe Billy McDade,Bradley,,,,,,,,,,,,,,,,
+1959,NBA,10,68,Joe Viviano,Xavier,,,,,,,,,,,,,,,,
+1959,NBA,11,74,Charley Brown,Seattle University,,,,,,,,,,,,,,,,
+1959,NBA,12,80,Roger Wendel,Tulsa,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1958,NBA,1,2,Archie Dees,Indiana,190,3092,1548,907,132,.402,,.794,16.3,8.1,4.8,0.7,5.4,.084,,
+1958,NBA,2,10,Vern Hatton,Kentucky,225,3666,1244,531,310,.344,,.735,16.3,5.5,2.4,1.4,0.2,.002,,
+1958,NBA,3,18,Bucky Bockhorn,Dayton,474,14791,5430,2234,1645,.403,,.748,31.2,11.5,4.7,3.5,7.9,.026,,
+1958,NBA,4,26,Phil Murrell,Drake University,,,,,,,,,,,,,,,,
+1958,NBA,5,34,Jim Fulmer,Alabama,,,,,,,,,,,,,,,,
+1958,NBA,6,42,Jim McClellan,Saint Francis University,,,,,,,,,,,,,,,,
+1958,NBA,7,50,Wayne Stevens,Cincinnati,8,49,13,16,4,.158,,.700,6.1,1.6,2.0,0.5,-0.2,-0.169,,
+1958,NBA,8,58,Bob Mantz,Lafayette College,,,,,,,,,,,,,,,,
+1958,NBA,9,65,Larry Staverman,Thomas More College,265,3380,1237,1019,251,.465,,.785,12.8,4.7,3.8,0.9,6.9,.097,,
+1958,NBA,10,71,Jack Parr,Kansas State,66,1037,262,278,51,.355,,.603,15.7,4.0,4.2,0.8,-0.3,-0.014,,
+1958,NBA,11,76,Frank Tartaron,Xavier,,,,,,,,,,,,,,,,
+1958,NBA,12,80,Don Medsker,Iowa State,,,,,,,,,,,,,,,,
+1958,NBA,13,84,Jerry DuPont,Louisville,,,,,,,,,,,,,,,,
+1958,NBA,14,85,Jim Newcome,Duke,,,,,,,,,,,,,,,,
+1958,NBA,15,86,Adrian Smith,Kentucky,719,18324,8482,1580,1697,.429,,.836,25.5,11.8,2.2,2.4,31.7,.083,,
+1958,NBA,16,87,Jack McCarthy,Dayton,,,,,,,,,,,,,,,,
+1958,NBA,17,88,John Powell,Miami University,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1957,NBA,1,1,Hot Rod Hundley (↳MNL),West Virginia,431,9553,3625,1420,1455,.347,,.721,22.2,8.4,3.3,3.4,4.3,.022,,
+1957,NBA,2,9,Dick Duckett,St. John's,34,424,132,56,47,.342,,.889,12.5,3.9,1.6,1.4,0.2,.025,,
+1957,NBA,3,17,Jerry Paulson,Manhattan University,6,68,20,10,4,.348,,.667,11.3,3.3,1.7,0.7,0.0,.016,,
+1957,NBA,4,25,Jed Dommeyer,Minnesota,,,,,,,,,,,,,,,,
+1957,NBA,5,33,Stuart Murray,Lafayette College,,,,,,,,,,,,,,,,
+1957,NBA,6,41,John Maglio,NC State,,,,,,,,,,,,,,,,
+1957,NBA,7,49,Chet Forte,Columbia University,,,,,,,,,,,,,,,,
+1957,NBA,8,56,Bob Daniels,Western Kentucky,,,,,,,,,,,,,,,,
+1957,NBA,9,63,Dick Heise,DePaul,,,,,,,,,,,,,,,,
+1957,NBA,10,70,Mel Wright,Oklahoma State,,,,,,,,,,,,,,,,
+1957,NBA,11,76,Cliff Hafer,NC State,,,,,,,,,,,,,,,,
+1957,NBA,12,80,Jim Boothe,Xavier,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1956,NBA,1,1,Si Green,Duquesne,504,13132,4636,2152,1655,.387,,.676,26.1,9.2,4.3,3.3,11.1,.041,,
+1956,NBA,2,9,Bob Burrow,Kentucky,81,1199,459,357,47,.365,,.578,14.8,5.7,4.4,0.6,1.9,.077,,
+1956,NBA,3,17,Dave Piontek,Xavier,413,7623,2955,1770,478,.391,,.652,18.5,7.2,4.3,1.2,7.0,.044,,
+1956,NBA,4,25,Johnny McCarthy,Canisius,316,8828,2450,1145,1184,.353,,.622,27.9,7.8,3.6,3.7,4.7,.026,,
+1956,NBA,5,33,Bill Uhl,Dayton,,,,,,,,,,,,,,,,
+1956,NBA,6,41,Kevin Thomas,Boston University,,,,,,,,,,,,,,,,
+1956,NBA,7,49,Carl Cain,Iowa,,,,,,,,,,,,,,,,
+1956,NBA,8,57,Clayton Carter,Oklahoma State,,,,,,,,,,,,,,,,
+1956,NBA,9,64,Dan Mannix,St. Francis College,,,,,,,,,,,,,,,,
+1956,NBA,10,71,Jerry Moreman,Louisville,,,,,,,,,,,,,,,,
+1956,NBA,11,77,Gene Carpenter,Texas Tech,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1955,NBA,1,2,Maurice Stokes,Saint Francis University,202,7544,3315,3492,1062,.351,,.698,37.3,16.4,17.3,5.3,16.1,.102,,
+1955,NBA,2,10,Jack Twyman,Cincinnati,823,26147,15840,5424,1861,.450,,.778,31.8,19.2,6.6,2.3,75.0,.138,,
+1955,NBA,3,18,Ed Fleming,Niagara University,292,6186,2511,1532,544,.359,,.731,21.2,8.6,5.2,1.9,9.8,.076,,
+1955,NBA,4,26,Bob McKeen,California,,,,,,,,,,,,,,,,
+1955,NBA,5,34,Bill Evans,Kentucky,,,,,,,,,,,,,,,,
+1955,NBA,6,42,Bob Armstrong,Michigan State,19,110,28,39,3,.297,,.500,5.8,1.5,2.1,0.2,-0.1,-0.063,,
+1955,NBA,7,50,Jim McConnell,Niagara University,,,,,,,,,,,,,,,,
+1955,NBA,8,58,Tony Vlastelica,Oregon State,,,,,,,,,,,,,,,,
+1955,NBA,9,66,Jerry Jung,Kansas State,,,,,,,,,,,,,,,,
+1955,NBA,10,74,Harry Jorgensen,Wyoming,,,,,,,,,,,,,,,,
+1955,NBA,11,82,Art Quimby,UConn,,,,,,,,,,,,,,,,
+1955,NBA,12,89,John Prudhoe,Louisville,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1954,NBA,1,7,Tom Marshall,Western Kentucky,168,2587,952,492,188,.388,,.709,15.4,5.7,2.9,1.1,4.1,.076,,
+1954,NBA,2,16,Boris Nachamkin,NYU,6,59,20,19,3,.300,,.615,9.8,3.3,3.2,0.5,0.0,-0.010,,
+1954,NBA,3,25,Lee Morton,Cornell,,,,,,,,,,,,,,,,
+1954,NBA,4,34,Art Spoelstra,Western Kentucky,278,5248,2012,1273,266,.391,,.693,18.9,7.2,4.6,1.0,8.6,.079,,
+1954,NBA,5,43,Bo Erias,Niagara University,18,401,148,83,26,.347,,.638,22.3,8.2,4.6,1.4,-0.1,-0.018,,
+1954,NBA,6,52,Red Davis,St. John's,3,16,2,4,1,.000,,1.000,5.3,0.7,1.3,0.3,-0.1,-0.288,,
+1954,NBA,7,61,Bill Hull,Utah State University,,,,,,,,,,,,,,,,
+1954,NBA,8,70,Paul Morrow,Wisconsin,,,,,,,,,,,,,,,,
+1954,NBA,9,78,Roy Irvin,USC,,,,,,,,,,,,,,,,
+1954,NBA,10,87,Ed Parchinski,Fordham,,,,,,,,,,,,,,,,
+1954,NBA,11,95,Jim Paxson,Dayton,138,3069,1105,616,225,.323,,.727,22.2,8.0,4.5,1.6,2.8,.044,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1953,NBA,1,5,Richie Regan,Seton Hall,215,5494,1785,554,629,.344,,.717,25.6,8.3,2.6,2.9,3.5,.031,,
+1953,NBA,2,14,Norm Swanson,Detroit Mercy,63,611,100,110,33,.226,,.594,9.7,1.6,1.7,0.5,-0.4,-0.034,,
+1953,NBA,3,,Frank Reddout,Syracuse,7,18,13,9,0,.833,,.750,2.6,1.9,1.3,0.0,0.3,.802,,
+1953,NBA,5,,Dick Walls,Miami University,,,,,,,,,,,,,,,,
+1953,NBA,6,,Hugh Beins,Georgetown,,,,,,,,,,,,,,,,
+1953,NBA,7,,Kendall Sheets,Oklahoma State,,,,,,,,,,,,,,,,
+1953,NBA,8,,Jim Sottile,West Virginia,,,,,,,,,,,,,,,,
+1953,NBA,9,,Dick Gross,Wheaton College,,,,,,,,,,,,,,,,
+1953,NBA,10,,Jim Gerber,Bowling Green,,,,,,,,,,,,,,,,
+1953,NBA,11,,Bill Bales,Eastern Kentucky University,,,,,,,,,,,,,,,,
+1953,NBA,12,,Bill Edwards,St. Bonaventure,,,,,,,,,,,,,,,,
+1953,NBA,13,,Bob Goss,NC State,,,,,,,,,,,,,,,,
+1953,NBA,14,,Paul Smaagard,Hamline University,,,,,,,,,,,,,,,,
+1953,NBA,15,,Kenny Sears,Santa Clara,529,14923,7355,4142,843,.455,,.826,28.2,13.9,7.8,1.6,55.8,.179,,
+1953,NBA,16,,John Kurtz,Loyola Marymount,,,,,,,,,,,,,,,,
+1953,NBA,17,,Ed Kohl,Regis University,,,,,,,,,,,,,,,,
+1953,NBA,18,,Gene Lambert,Arkansas,,,,,,,,,,,,,,,,
+1953,NBA,19,,Tex Silverman,George Washington,,,,,,,,,,,,,,,,
+1953,NBA,20,,Nick Maguire,Villanova,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1952,NBA,1,9,Chuck Darling,Iowa,,,,,,,,,,,,,,,,
+1952,NBA,2,,Jack McMahon,St. John's,524,14228,4237,1390,1939,.337,,.637,27.2,8.1,2.7,3.7,6.2,.021,,
+1952,NBA,3,,Ronnie MacGilvray,St. John's,6,57,8,9,11,.167,,.571,9.5,1.3,1.5,1.8,-0.1,-0.046,,
+1952,NBA,4,,Bryant Ivey,Alabama,,,,,,,,,,,,,,,,
+1952,NBA,5,,Leroy Leslie,Notre Dame,,,,,,,,,,,,,,,,
+1952,NBA,6,,Jewell McDowell,Texas A&M,,,,,,,,,,,,,,,,
+1952,NBA,7,,Sam Miranda,Indiana,,,,,,,,,,,,,,,,
+1952,NBA,8,,Jerry Romney,BYU,,,,,,,,,,,,,,,,
+1952,NBA,9,,Royce Ray,Houston,,,,,,,,,,,,,,,,
+1952,NBA,10,,Arnold Smith,City College of New York,,,,,,,,,,,,,,,,
+1952,NBA,11,,Ray Sonnenberg,Saint Louis,,,,,,,,,,,,,,,,
+1952,NBA,12,,Ray Steiner,Saint Louis,,,,,,,,,,,,,,,,
+1952,NBA,13,,Bob Whitmer,Florida State,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1951,NBA,1,8,Sam Ranzino,NC State,39,234,86,39,25,.333,,.703,6.0,2.2,1.0,0.6,0.2,.038,,
+1951,NBA,2,18,Ray Ragelis,Northwestern,51,337,68,76,31,.260,,.621,6.6,1.3,1.5,0.6,-0.4,-0.059,,
+1951,NBA,3,28,Fred Diute,St. Bonaventure,7,72,11,13,4,.095,,.583,10.3,1.6,1.9,0.6,-0.3,-0.204,,
+1951,NBA,4,38,Elmer Behnke,Bradley,4,55,16,17,4,.273,,.571,13.8,4.0,4.3,1.0,-0.1,-0.098,,
+1951,NBA,5,48,Dan Bagley,Notre Dame,,,,,,,,,,,,,,,,
+1951,NBA,6,58,Jim Ove,Valparaiso,,,,,,,,,,,,,,,,
+1951,NBA,7,68,Jack Brown,SMU,,,,,,,,,,,,,,,,
+1951,NBA,8,77,George Davidson,Lafayette College,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1950,NBA,1,10,Joe McNamee,San Francisco,118,695,289,238,58,.298,,.620,12.0,2.4,2.0,0.5,-1.3,-0.055,,
+1950,NBA,2,22,George Stanich,UCLA,,,,,,,,,,,,,,,,
+1950,NBA,3,34,Bob Roper,John Carroll University,,,,,,,,,,,,,,,,
+1950,NBA,4,46,Chet Giermak,William & Mary,,,,,,,,,,,,,,,,
+1950,NBA,5,58,Joe Nelson,BYU,,,,,,,,,,,,,,,,
+1950,NBA,6,70,John Givens,Western Kentucky,,,,,,,,,,,,,,,,
+1950,NBA,7,82,Dan Kahler,Southwestern College,,,,,,,,,,,,,,,,
+1950,NBA,8,94,Carl Kraushaar,UCLA,,,,,,,,,,,,,,,,
+1950,NBA,9,106,Warren Switzer,Rice University,,,,,,,,,,,,,,,,
+1950,NBA,10,116,Henry Foley,Niagara University,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1949,BAA,1,12,Pep Saul,Seton Hall,384,6219,2152,683,596,.360,,.739,23.0,5.6,2.0,1.6,12.7,.082,,
+1949,BAA,2,24,Jack Coleman,Louisville,633,16479,6721,5186,1749,.416,,.695,33.1,10.6,9.2,2.8,47.7,.107,,
+1949,BAA,,,Jim McIntyre,Minnesota,,,,,,,,,,,,,,,,
+Year,Lg,Rd,Pk,Player,College,G,MP,PTS,TRB,AST,FG%,3P%,FT%,MP,PTS,TRB,AST,WS,WS/48,BPM,VORP
+1948,BAA,1,10,Bobby Wanzer,Seton Hall,569,12128,6924,1979,1830,.393,,.802,32.5,12.2,4.5,3.2,63.9,.156,,
+1948,BAA,2,,Bill Gabor,Syracuse,307,3680,2997,448,626,.344,,.737,19.4,9.8,1.8,2.0,11.2,.081,,
+1948,BAA,3,,Johnny Macknowski,Seton Hall,117,,823,110,134,.317,,.727,,7.0,1.9,1.1,2.7,,,
+1948,BAA,4,,Leo Kubiak,Bowling Green,62,,710,,201,.326,,.814,,11.5,,3.2,0.5,,,
+1948,BAA,5,,Alex Athas,Tulane,,,,,,,,,,,,,,,,
+1948,BAA,6,,Ed Keim,Niagara University,,,,,,,,,,,,,,,,
+1948,BAA,7,,Lionel Malamed,City College of New York,44,,258,,61,.334,,.831,,5.9,,1.4,1.7,,,
+1948,BAA,8,,Hank O'Keefe,Canisius,,,,,,,,,,,,,,,,
+1948,BAA,9,,Ed Stickel,Syracuse,,,,,,,,,,,,,,,,
+1948,BAA,10,,Paul Yesawich,Niagara University,,,,,,,,,,,,,,,,

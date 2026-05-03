@@ -343,8 +343,8 @@ class DataExtraction:
 
 # extract_data = DataExtraction()
 # extract_data.run_all()
-extractor = DataExtraction()
-extractor.download_sac_player_advanced_stats()
+# extractor = DataExtraction()
+# extractor.download_sac_player_advanced_stats()
 
 def get_player_transactions_history():
     import json
@@ -649,3 +649,159 @@ def download_sac_since_2000():
         print(f"Saved {adv_path} ({len(adv_df)} rows)")
 
 # download_sac_since_2000()
+
+def download_sac_coaches():
+    out_path = os.path.join(DATA_DIR, "SAC_coaches.csv")
+    os.makedirs(DATA_DIR, exist_ok=True)
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+    print("Fetching SAC coaches...")
+    response = requests.get("https://www.basketball-reference.com/teams/SAC/coaches.html", headers=headers)
+    response.raise_for_status()
+    time.sleep(3)
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    table = soup.find("table", {"id": "coaches"})
+    if table is None:
+        for comment in soup.find_all(string=lambda t: isinstance(t, Comment)):
+            comment_soup = BeautifulSoup(comment, "html.parser")
+            table = comment_soup.find("table", {"id": "coaches"})
+            if table:
+                break
+
+    if table is None:
+        print("Could not find coaches table")
+        return
+
+    df = pd.read_html(StringIO(str(table)), header=1)[0]
+    df.to_csv(out_path, index=False)
+    print(f"Saved {out_path} ({len(df)} rows)")
+
+# download_sac_coaches()
+
+def download_sac_gms():
+    out_path = os.path.join(DATA_DIR, "SAC_GMs.csv")
+    os.makedirs(DATA_DIR, exist_ok=True)
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+    print("Fetching SAC executives...")
+    response = requests.get("https://www.basketball-reference.com/teams/SAC/executives.html", headers=headers)
+    response.raise_for_status()
+    time.sleep(3)
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    table = soup.find("table", {"id": "executives"})
+    if table is None:
+        for comment in soup.find_all(string=lambda t: isinstance(t, Comment)):
+            comment_soup = BeautifulSoup(comment, "html.parser")
+            table = comment_soup.find("table", {"id": "executives"})
+            if table:
+                break
+
+    if table is None:
+        print("Could not find executives table")
+        return
+
+    df = pd.read_html(StringIO(str(table)))[0]
+    df.to_csv(out_path, index=False)
+    print(f"Saved {out_path} ({len(df)} rows)")
+
+# download_sac_gms()
+
+def download_sac_draft_history():
+    out_path = os.path.join(DATA_DIR, "SAC_draft_history.csv")
+    os.makedirs(DATA_DIR, exist_ok=True)
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+    print("Fetching SAC draft history...")
+    response = requests.get("https://www.basketball-reference.com/teams/SAC/draft.html", headers=headers)
+    response.raise_for_status()
+    time.sleep(3)
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    table = soup.find("table", {"id": "draft"})
+    if table is None:
+        for comment in soup.find_all(string=lambda t: isinstance(t, Comment)):
+            comment_soup = BeautifulSoup(comment, "html.parser")
+            table = comment_soup.find("table", {"id": "draft"})
+            if table:
+                break
+
+    if table is None:
+        print("Could not find draft table")
+        return
+
+    df = pd.read_html(StringIO(str(table)), header=1)[0]
+    df.to_csv(out_path, index=False)
+    print(f"Saved {out_path} ({len(df)} rows)")
+
+# download_sac_draft_history()
+
+def download_champions_mgmt_history():
+    import shutil
+
+    champions_dir = os.path.join(DATA_DIR, "champions_since_2000")
+    mgmt_dir = os.path.join(DATA_DIR, "mgmt_history")
+    src_dir = os.path.join(DATA_DIR, "NBA_champions_team_details")
+    os.makedirs(mgmt_dir, exist_ok=True)
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+    def fetch_table(url, table_id, header_row=None):
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        time.sleep(3)
+        soup = BeautifulSoup(response.text, "html.parser")
+        table = soup.find("table", {"id": table_id})
+        if table is None:
+            for comment in soup.find_all(string=lambda t: isinstance(t, Comment)):
+                comment_soup = BeautifulSoup(comment, "html.parser")
+                table = comment_soup.find("table", {"id": table_id})
+                if table:
+                    break
+        if table is None:
+            return None
+        kwargs = {"header": header_row} if header_row is not None else {}
+        return pd.read_html(StringIO(str(table)), **kwargs)[0]
+
+    teams = set()
+    for entry in os.scandir(champions_dir):
+        if entry.is_dir() and "_" in entry.name:
+            parts = entry.name.split("_", 1)
+            if len(parts) == 2:
+                teams.add(parts[1])
+
+    file_specs = [
+        # (dst_filename, src_filename_template, url_path, table_id, header_row)
+        ("coaches.csv",       "{team}_coaches.csv",    "coaches.html",    "coaches",    1),
+        ("executives.csv",    "{team}_executives.csv", "executives.html", "executives", None),
+        ("draft_history.csv", None,                    "draft.html",      "draft",      1),
+    ]
+
+    for team in sorted(teams):
+        team_dir = os.path.join(mgmt_dir, team)
+        os.makedirs(team_dir, exist_ok=True)
+        print(f"Processing {team}...")
+
+        for dst_name, src_template, url_path, table_id, header_row in file_specs:
+            dst_path = os.path.join(team_dir, dst_name)
+            if os.path.exists(dst_path):
+                print(f"  Skipping {dst_name} (already saved)")
+                continue
+
+            if src_template is not None:
+                src_path = os.path.join(src_dir, src_template.format(team=team))
+                if os.path.exists(src_path):
+                    shutil.copy2(src_path, dst_path)
+                    print(f"  Copied {dst_name} from existing")
+                    continue
+
+            url = f"https://www.basketball-reference.com/teams/{team}/{url_path}"
+            print(f"  Fetching {dst_name} from {url}")
+            df = fetch_table(url, table_id, header_row=header_row)
+            if df is None:
+                print(f"  Could not find {table_id} table for {team}")
+                continue
+            df.to_csv(dst_path, index=False)
+            print(f"  Saved {dst_name} ({len(df)} rows)")
+
+download_champions_mgmt_history()

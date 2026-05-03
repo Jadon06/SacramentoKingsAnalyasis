@@ -163,6 +163,7 @@ def plot_depth_scores(depth_scores, playoff_results=None):
     plt.tight_layout()
     plt.show()
 
+print(df_roster_stats_sac.head())
 champs_bench_contributions = calculate_bench_contributions(df_roster_stats)
 sac_bench_contributions = calculate_bench_contributions(df_roster_stats_sac)
 data = champs_bench_contributions | sac_bench_contributions
