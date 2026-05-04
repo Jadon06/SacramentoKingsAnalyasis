@@ -1,0 +1,274 @@
+[
+  {
+    "transaction_date": "2024",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Devin Carter (R1 P13)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2025",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Maxime Raynaud (R2 P42)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2024",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Jamal Shead (R2 P45)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2023",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Olivier-Maxence Prosper (R1 P24)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2023",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Jordan Walsh (R2 P38)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2022",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Keegan Murray (R1 P4)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2021",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Davion Mitchell (R1 P9)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2021",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Neemias Queta (R2 P39)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2020",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Tyrese Haliburton (R1 P12)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2020",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Xavier Tillman (R2 P35)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2020",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Kenyon Martin (R2 P52)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2018",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Marvin Bagley (R1 P2)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2018",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Gary Trent (R2 P37)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2017",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "De'Aaron Fox (R1 P5)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2017",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Zach Collins (R1 P10)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2015",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Willie Cauley-Stein (R1 P6)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2014",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Nik Stauskas (R1 P8)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2013",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Ben McLemore (R1 P7)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2013",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Ray McCallum (R2 P36)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2012",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Thomas Robinson (R1 P5)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2011",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Bismack Biyombo (R1 P7)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2011",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Isaiah Thomas (R2 P60)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2010",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "DeMarcus Cousins (R1 P5)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2010",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Hassan Whiteside (R2 P33)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2009",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Tyreke Evans (R1 P4)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2009",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Omri Casspi (R1 P23)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2009",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Jeff Ayres (R2 P31)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2008",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Jason Thompson (R1 P12)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2007",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Spencer Hawes (R1 P10)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2005",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Francisco Garc\u00eda (R1 P23)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2004",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Kevin Martin (R1 P26)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2002",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Dan Dickau (R1 P28)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2001",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Gerald Wallace (R1 P25)"
+    ],
+    "assets_lost": null
+  },
+  {
+    "transaction_date": "2000",
+    "transaction_type": "draft",
+    "assets_gained": [
+      "Hedo T\u00fcrko\u011flu (R1 P16)"
+    ],
+    "assets_lost": null
+  }
+]

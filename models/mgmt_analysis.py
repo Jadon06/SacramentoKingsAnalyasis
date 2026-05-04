@@ -27,9 +27,9 @@ def load_transactions(start_year: int = 2000, end_year: int = 2026) -> pd.DataFr
     return df
 
 df_gms = pd.read_csv("data/SAC_GMs.csv")
-print(df_gms.head())
+print(df_gms[df_gms["End"] >= "2000-01-01"])
 df_draft_hist = pd.read_csv("data/SAC_draft_history.csv")
-print(df_draft_hist.head())
+# print(df_draft_hist.head())
 df_coaches = pd.read_csv("data/SAC_coaches.csv")
 df_transactions = load_transactions()
-print(df_transactions.head())
+print(df_transactions)

@@ -1,0 +1,43 @@
+transaction_date,transaction_type,assets_gained,assets_lost
+2009-06-25,trade,['Ty Lawson'],['2010 1st round draft pick']
+2009-06-25,trade,['Jeff Ayres'],
+2009-02-18,trade,"['Brad Miller', 'John Salmons']","['Drew Gooden', 'Andrés Nocioni', 'Michael Ruffin', 'Cedric Simmons']"
+2009-02-18,trade,['Michael Ruffin'],
+2011-06-23,trade,"['Jimmer Fredette', 'John Salmons']","['Bismack Biyombo', 'Beno Udrih']"
+2015-07-09,trade,"[""De'Aaron Fox (via 2017 1st round pick)""]","['Nik Stauskas', 'Jason Thompson', '2017 1st round pick']"
+2019-07-16,signing,['Richaun Holmes'],
+2019-10-21,extension,['Buddy Hield'],
+2020-11-25,trade,['Kenyon Martin Jr.'],['2021 2nd round draft pick']
+2021-03-25,trade,['Delon Wright'],"['Cory Joseph', '2021 2nd round draft pick', '2024 2nd round draft pick']"
+2022-06-23,trade,['Sasha Vezenkov'],['2022 2nd round draft pick']
+2023-02-07,trade,['David Michineau'],
+2025-07-07,trade,['Dennis Schroder'],['2026 2nd round draft pick']
+2009,draft,['Tyreke Evans (R1 P4)'],
+2009,draft,['Omri Casspi (R1 P23)'],
+2010,draft,['DeMarcus Cousins (R1 P5)'],
+2010,draft,['Hassan Whiteside (R2 P33)'],
+2011,draft,['Bismack Biyombo (R1 P7)'],
+2011,draft,['Isaiah Thomas (R2 P60)'],
+2012,draft,['Thomas Robinson (R1 P5)'],
+2013,draft,['Ben McLemore (R1 P7)'],
+2014,draft,['Nik Stauskas (R1 P8)'],
+2015,draft,['Willie Cauley-Stein (R1 P6)'],
+2016,draft,['Marquese Chriss (R1 P8)'],
+2017,draft,"[""De'Aaron Fox (R1 P5)""]",
+2017,draft,['Zach Collins (R1 P10)'],
+2018,draft,['Marvin Bagley (R1 P2)'],
+2018,draft,['Gary Trent (R2 P37)'],
+2019,draft,['Justin James (R2 P40)'],
+2019,draft,['Ignas Brazdeikis (R2 P47)'],
+2020,draft,['Tyrese Haliburton (R1 P12)'],
+2020,draft,['Xavier Tillman (R2 P35)'],
+2020,draft,['Kenyon Martin (R2 P52)'],
+2021,draft,['Davion Mitchell (R1 P9)'],
+2021,draft,['Neemias Queta (R2 P39)'],
+2022,draft,['Keegan Murray (R1 P4)'],
+2022,draft,['Jaden Hardy (R2 P37)'],
+2023,draft,['Olivier-Maxence Prosper (R1 P24)'],
+2023,draft,['Jordan Walsh (R2 P38)'],
+2024,draft,['Devin Carter (R1 P13)'],
+2024,draft,['Jamal Shead (R2 P45)'],
+2025,draft,['Maxime Raynaud (R2 P42)'],

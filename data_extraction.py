@@ -804,4 +804,4 @@ def download_champions_mgmt_history():
             df.to_csv(dst_path, index=False)
             print(f"  Saved {dst_name} ({len(df)} rows)")
 
-download_champions_mgmt_history()
+# download_champions_mgmt_history()

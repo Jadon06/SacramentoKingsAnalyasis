@@ -1,0 +1,43 @@
+transaction_date,transaction_type,assets_gained,assets_lost
+2025-02-03,trade,"['Zach LaVine', 'Zach Collins', 'Tre Jones', 'Sidy Cissoko', '2025 2nd round draft pick', '2026 2nd round draft pick', '2027 1st round draft pick', '2027 2nd round draft pick', '2028 2nd round draft pick', '2031 1st round draft pick']","['Kevin Huerta', ""De'Aaron Fox"", 'Jordan McLaughlin']"
+2025-02-05,trade,['Jonas Valanciunas'],"['Sidy Cissoko', '2028 2nd round draft pick', '2029 2nd round draft pick']"
+2024-06-28,trade,['Jalen McDaniels'],"['Davion Mitchell', 'Jamal Shead', 'Sasha Vezenkov', '2025 2nd round draft pick']"
+2024,draft,['Devin Carter (R1 P13)'],
+2023,draft,['Olivier-Maxence Prosper (R1 P24)'],
+2023,draft,['Jordan Walsh (R2 P38)'],
+2022,draft,['Keegan Murray (R1 P4)'],
+2022,draft,['Jaden Hardy (R2 P37)'],
+2021,draft,['Davion Mitchell (R1 P9)'],
+2021,draft,['Neemias Queta (R2 P39)'],
+2020,draft,['Tyrese Haliburton (R1 P12)'],
+2020,draft,['Xavier Tillman (R2 P35)'],
+2020,draft,['Kenyon Martin (R2 P52)'],
+2018,draft,['Marvin Bagley (R1 P2)'],
+2018,draft,['Gary Trent (R2 P37)'],
+2017,draft,"[""De'Aaron Fox (R1 P5)""]",
+2017,draft,['Zach Collins (R1 P10)'],
+2015,draft,['Willie Cauley-Stein (R1 P6)'],
+2015,trade,"[""De'Aaron Fox"", 'Jayson Tatum', 'Romeo Langford']","['Carl Landry', 'Nik Stauskas', 'Jason Thompson', '2017 1st round draft pick', '2019 1st round draft pick']"
+2014,draft,['Nik Stauskas (R1 P8)'],
+2013,draft,['Ben McLemore (R1 P7)'],
+2012,draft,['Thomas Robinson (R1 P5)'],
+2011,draft,['Bismack Biyombo (R1 P7)'],
+2011,draft,['Isaiah Thomas (R2 P60)'],
+2011-06-23,trade,"['Jimmer Fredette', 'John Salmons']","['Bismack Biyombo', 'Beno Udrih']"
+2010,draft,['DeMarcus Cousins (R1 P5)'],
+2010,draft,['Hassan Whiteside (R2 P33)'],
+2009,draft,['Tyreke Evans (R1 P4)'],
+2009,draft,['Omri Casspi (R1 P23)'],
+2009,draft,['Jeff Ayres (R2 P31)'],
+2009-02-18,trade,"['Drew Gooden', 'Andrés Nocioni', 'Michael Ruffin', 'Cedric Simmons']","['Brad Miller', 'John Salmons']"
+2009-02-19,trade,"['Calvin Booth', 'Rashad McCants']","['Bobby Brown', 'Sheldon Williams']"
+2009-06-25,trade,['Jeff Ayres'],"['Jon Brockman', 'Sergio Rodríguez']"
+2008,draft,['Jason Thompson (R1 P12)'],
+2007,draft,['Spencer Hawes (R1 P10)'],
+2005,draft,['Francisco García (R1 P23)'],
+2005-08-02,trade,['Bonzi Wells'],['Bobby Jackson']
+2004,draft,['Kevin Martin (R1 P26)'],
+2002,draft,['Dan Dickau (R1 P28)'],
+2001,draft,['Gerald Wallace (R1 P25)'],
+2001-09-07,trade,['Mateen Cleaves'],"['Jon Barry', '2003 1st round draft pick']"
+2000,draft,['Hedo Türkoğlu (R1 P16)'],
