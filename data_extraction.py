@@ -805,3 +805,52 @@ def download_champions_mgmt_history():
             print(f"  Saved {dst_name} ({len(df)} rows)")
 
 # download_champions_mgmt_history()
+
+def download_champions_playoff_appearances():
+    out_dir = os.path.join(DATA_DIR, "champions_playoff_appearances")
+    champions_dir = os.path.join(DATA_DIR, "champions_since_2000")
+    os.makedirs(out_dir, exist_ok=True)
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+    def find_table(html, table_id):
+        soup = BeautifulSoup(html, "html.parser")
+        table = soup.find("table", {"id": table_id})
+        if table is None:
+            for comment in soup.find_all(string=lambda t: isinstance(t, Comment)):
+                comment_soup = BeautifulSoup(comment, "html.parser")
+                table = comment_soup.find("table", {"id": table_id})
+                if table:
+                    break
+        return table
+
+    teams = set()
+    for entry in os.scandir(champions_dir):
+        if entry.is_dir() and "_" in entry.name:
+            parts = entry.name.split("_", 1)
+            if len(parts) == 2:
+                teams.add(parts[1])
+
+    for team in sorted(teams):
+        out_path = os.path.join(out_dir, f"{team}.csv")
+        if os.path.exists(out_path):
+            print(f"Skipping {team} (already saved)")
+            continue
+
+        url = f"https://www.basketball-reference.com/teams/{team}/"
+        print(f"Fetching {team} overview...")
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        time.sleep(3)
+
+        table = find_table(response.text, team)
+        if table is None:
+            print(f"  Could not find overview table for {team}")
+            continue
+
+        df = pd.read_html(StringIO(str(table)))[0]
+        # Drop the "Totals" / averages row at the top of the team overview table
+        df = df.iloc[1:].reset_index(drop=True)
+        df.to_csv(out_path, index=False)
+        print(f"  Saved {out_path} ({len(df)} rows)")
+
+# download_champions_playoff_appearances()

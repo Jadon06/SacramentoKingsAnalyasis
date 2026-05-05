@@ -88,7 +88,7 @@ from langchain_core.runnables import RunnableLambda
 from langchain_core.documents import Document
 
 transactions_retriever = vector_store.as_retriever(
-    search_kwargs={"k": 30}  # broader — we filter by "Sacramento Kings" client-side
+    search_kwargs={"k": 20}  # broader — we filter by "Sacramento Kings" client-side
 )
 
 def fetch_drafts_since_2000() -> list[Document]:
@@ -117,8 +117,8 @@ def retrieve_context(input_dict: dict) -> list[Document]:
     txn_results = []
     for q in queries:
         txn_docs = transactions_retriever.invoke(q)
-        sac_txn_docs = [d for d in txn_docs if "sacramento kings" in d.page_content.lower()]
-        txn_results.append(sac_txn_docs)
+        # sac_txn_docs = [d for d in txn_docs if "sacramento kings" in d.page_content.lower()]
+        txn_results.append(txn_docs)
     fused_txns = reciprocal_rank_fusion(txn_results)
     txn_docs = [doc for doc, _ in fused_txns[:50]]
 
@@ -129,15 +129,15 @@ def retrieve_context(input_dict: dict) -> list[Document]:
 
 retrieval_chain_rag_fusion = RunnableLambda(retrieve_context)
 
-SYSTEM_PROMPT = """You are a transaction retrieval agent for the Sacramento Kings NBA franchise.
+SYSTEM_PROMPT = """You are a transaction retrieval agent for some {{team}} or {{teams}} NBA franchise.
 
 You will be given context retrieved from a database of historical NBA teams player transactions and draft picks, and a user question. Your job is to extract relevant events from the context and return them in the structured format provided.
 
 For each entry:
 - transaction_date: the date as a string (e.g. "2003-07-15"). For draft picks, use the year only (e.g. "2020").
 - transaction_type: one of "trade", "waive", "signing", "extension", "free agency", "draft"
-- assets_gained: players, picks, or cash the Sacramento Kings RECEIVED (null if none)
-- assets_lost: players, picks, or cash the Sacramento Kings GAVE UP (null if none)
+- assets_gained: players, picks, or cash the {{team}} RECEIVED (null if none)
+- assets_lost: players, picks, or cash the {{team}} GAVE UP (null if none)
 
 For draft picks specifically:
 - transaction_type is "draft"
