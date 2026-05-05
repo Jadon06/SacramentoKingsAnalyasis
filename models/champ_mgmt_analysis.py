@@ -307,3 +307,95 @@ ax.grid(True, linestyle="--", alpha=0.4)
 ax.legend(loc="upper left", bbox_to_anchor=(1.02, 1.0), fontsize=9, frameon=True, title="GM (team)")
 plt.tight_layout()
 plt.show()
+
+# === Q4 GMs + all SAC GMs picks per year — line chart ===
+# Plot all Q4 GMs (12 non-SAC + Petrie) translucently, and all SAC GMs prominently
+non_sac_q4 = q4_gms[q4_gms["team"] != "SAC"][["team", "executive"]]
+sac_all_gms = master[master["team"] == "SAC"][["team", "executive"]]
+
+to_plot_pairs = pd.concat([non_sac_q4, sac_all_gms]).drop_duplicates()
+plot_keys = set(to_plot_pairs.itertuples(index=False, name=None))
+
+plot_picks = combined[combined.apply(lambda r: (r["team"], r["executive"]) in plot_keys, axis=1)].copy()
+plot_picks = plot_picks.dropna(subset=["draft_value_add"])
+
+yearly_totals = (
+    plot_picks.groupby(["team", "executive", "Year"])["draft_value_add"]
+    .sum()
+    .reset_index()
+)
+
+labels_map = (
+    plot_picks.groupby(["team", "executive", "Year"])["Player"]
+    .apply(lambda s: ", ".join(str(p).split(" (↳")[0] for p in s))
+    .to_dict()
+)
+
+fig, ax = plt.subplots(figsize=(14, 8))
+non_sac_cmap = plt.get_cmap("tab20")
+sac_cmap = plt.get_cmap("tab10")
+
+# Plot non-SAC Q4 GMs first (translucent backdrop)
+for i, (team, exec_name) in enumerate(non_sac_q4.itertuples(index=False, name=None)):
+    series = yearly_totals[
+        (yearly_totals["team"] == team) & (yearly_totals["executive"] == exec_name)
+    ].sort_values("Year")
+    if series.empty:
+        continue
+    color = non_sac_cmap(i % 20)
+    ax.plot(
+        series["Year"], series["draft_value_add"],
+        color=color, marker="o", linewidth=1.5, markersize=4,
+        alpha=1.0,
+        label=f"{exec_name} ({team})",
+    )
+    for _, row in series.iterrows():
+        label = labels_map.get((team, exec_name, row["Year"]), "")
+        ax.annotate(
+            label,
+            (row["Year"], row["draft_value_add"]),
+            textcoords="offset points",
+            xytext=(0, 6),
+            ha="center",
+            fontsize=5,
+            color=color,
+            rotation=30,
+        )
+
+# Plot SAC GMs on top — bold, full alpha, with player annotations
+sac_gm_list = sac_all_gms.itertuples(index=False, name=None)
+for j, (team, exec_name) in enumerate(sac_gm_list):
+    series = yearly_totals[
+        (yearly_totals["team"] == team) & (yearly_totals["executive"] == exec_name)
+    ].sort_values("Year")
+    if series.empty:
+        continue
+    color = sac_cmap(j % 10)
+    ax.plot(
+        series["Year"], series["draft_value_add"],
+        color=color, marker="o", linewidth=2.6, markersize=7,
+        alpha=1.0, zorder=5,
+        label=f"{exec_name} (SAC)",
+    )
+    for _, row in series.iterrows():
+        label = labels_map.get((team, exec_name, row["Year"]), "")
+        ax.annotate(
+            label,
+            (row["Year"], row["draft_value_add"]),
+            textcoords="offset points",
+            xytext=(0, 7),
+            ha="center",
+            fontsize=6,
+            color=color,
+            rotation=30,
+            zorder=6,
+        )
+
+ax.axhline(0, color="gray", linestyle="--", linewidth=0.8)
+ax.set_xlabel("Draft year")
+ax.set_ylabel("Pick value-add (sum across that year's picks)")
+ax.set_title("SAC GMs (bold) vs. Q4 elite drafters (translucent backdrop) — pick value-add by year")
+ax.grid(True, linestyle="--", alpha=0.4)
+ax.legend(loc="upper left", bbox_to_anchor=(1.02, 1.0), fontsize=9, frameon=True, title="GM (team)")
+plt.tight_layout()
+plt.show()
