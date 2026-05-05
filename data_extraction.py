@@ -854,3 +854,117 @@ def download_champions_playoff_appearances():
         print(f"  Saved {out_path} ({len(df)} rows)")
 
 # download_champions_playoff_appearances()
+
+def download_coach_histories():
+    out_dir_root = os.path.join(DATA_DIR, "mgmt_history")
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+    teams = sorted(e.name for e in os.scandir(out_dir_root) if e.is_dir())
+
+    def find_table(html, table_id):
+        soup = BeautifulSoup(html, "html.parser")
+        table = soup.find("table", {"id": table_id})
+        if table is None:
+            for comment in soup.find_all(string=lambda t: isinstance(t, Comment)):
+                comment_soup = BeautifulSoup(comment, "html.parser")
+                table = comment_soup.find("table", {"id": table_id})
+                if table:
+                    break
+        return table
+
+    def season_end_year(s):
+        if not isinstance(s, str) or "-" not in s:
+            return None
+        try:
+            return int(s.split("-")[0]) + 1
+        except ValueError:
+            return None
+
+    # Phase 1 — build (team, coach_name) -> coach_url lookup by re-fetching team coaches pages
+    print("Phase 1: collecting coach URLs from team pages...")
+    coach_urls = {}  # (team, name) -> "/coaches/xxxx.html"
+    for team in teams:
+        url = f"https://www.basketball-reference.com/teams/{team}/coaches.html"
+        print(f"  fetching {team} coaches page...")
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        time.sleep(3)
+        table = find_table(response.text, "coaches")
+        if table is None:
+            print(f"    Could not find coaches table for {team}")
+            continue
+        for tr in table.find_all("tr"):
+            cell = tr.find(["td", "th"], {"data-stat": "coach"})
+            if cell is None:
+                continue
+            link = cell.find("a")
+            if link and link.get("href"):
+                name = link.get_text(strip=True)
+                coach_urls[(team, name)] = link["href"]
+
+    print(f"  Got {len(coach_urls)} coach links across {len(teams)} teams")
+
+    # Phase 2 — for each team, identify post-2000 coaches and fetch their pages
+    for team in teams:
+        out_path = os.path.join(out_dir_root, team, "coach_history.csv")
+        if os.path.exists(out_path):
+            print(f"Skipping {team} (coach_history.csv already exists)")
+            continue
+
+        coaches_csv = os.path.join(out_dir_root, team, "coaches.csv")
+        if not os.path.exists(coaches_csv):
+            print(f"Skipping {team} (no coaches.csv)")
+            continue
+
+        df_coaches = pd.read_csv(coaches_csv)
+        if "To" not in df_coaches.columns or "Coach" not in df_coaches.columns:
+            print(f"Skipping {team} (coaches.csv missing 'Coach'/'To' columns)")
+            continue
+
+        df_coaches["To"] = pd.to_numeric(df_coaches["To"], errors="coerce")
+        post_2000 = df_coaches[df_coaches["To"] >= 2000]
+        print(f"\nProcessing {team} — {len(post_2000)} post-2000 coaches")
+
+        team_rows = []
+        for _, row in post_2000.iterrows():
+            name = row["Coach"]
+            href = coach_urls.get((team, name))
+            if not href:
+                print(f"  No URL for {name} ({team}), skipping")
+                continue
+            coach_url = f"https://www.basketball-reference.com{href}"
+            print(f"  fetching {name}...")
+            try:
+                resp = requests.get(coach_url, headers=headers)
+                resp.raise_for_status()
+            except requests.HTTPError as e:
+                print(f"    HTTP error: {e}")
+                time.sleep(3)
+                continue
+            time.sleep(3)
+
+            table = find_table(resp.text, "coach-stats")
+            if table is None:
+                print(f"    No coach-stats table on {name}'s page")
+                continue
+
+            df = pd.read_html(StringIO(str(table)), header=1)[0]
+            # Drop rows where the coach wasn't head coach this season ("Assistant Coach", "Associate Head Coach", etc.)
+            df = df[pd.to_numeric(df["G"], errors="coerce").notna()]
+            # Drop summary rows ("Career", "1 seasons", etc.)
+            df = df[df["Season"].astype(str).str.match(r"^\d{4}-\d{2}$", na=False)]
+            # Filter to this team and post-2000 seasons
+            df = df[df["Tm"] == team]
+            df["season_end_year"] = df["Season"].apply(season_end_year)
+            df = df[df["season_end_year"] >= 2000].drop(columns=["season_end_year"])
+            df["Coach"] = name
+            team_rows.append(df)
+
+        if team_rows:
+            combined = pd.concat(team_rows, ignore_index=True)
+            combined.to_csv(out_path, index=False)
+            print(f"  Saved {out_path} ({len(combined)} rows)")
+        else:
+            print(f"  No rows collected for {team}")
+
+# download_coach_histories()
