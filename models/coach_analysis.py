@@ -7,18 +7,33 @@ PLAYOFFS_DIR = os.path.join(ROOT, "data", "champions_playoff_appearances")
 CHAMPS_DIR = os.path.join(ROOT, "data", "champions_since_2000")
 SAC_DIR = os.path.join(ROOT, "data", "SAC_since_2000")
 
+PLAYOFFS_DEPTH_DIR = os.path.join(ROOT, "data", "Champions_playoffs_depth")
+
+
 def _load_team_advanced(team: str, year) -> pd.DataFrame | None:
-    """Return per-player advanced stats for a (team, year) if available, else None."""
+    """Return per-player advanced stats for a (team, year) if available, else None.
+
+    Checks (in order): SAC_since_2000, Champions_playoffs_depth (newly scraped
+    playoff-season data), then champions_since_2000 (title seasons).
+    """
     if pd.isna(year):
         return None
     year = int(year)
+
     if team == "SAC":
         path = os.path.join(SAC_DIR, str(year), "advanced_stats.csv")
-    else:
-        path = os.path.join(CHAMPS_DIR, f"{year}_{team}", "advanced_stats.csv")
-    if not os.path.exists(path):
-        return None
-    return pd.read_csv(path)
+        return pd.read_csv(path) if os.path.exists(path) else None
+
+    # Try the new Champions_playoffs_depth folder first (covers all post-2000 playoff seasons)
+    p = os.path.join(PLAYOFFS_DEPTH_DIR, f"{team}_{year}.csv")
+    if os.path.exists(p):
+        return pd.read_csv(p)
+
+    # Fallback to the original title-season folder
+    p = os.path.join(CHAMPS_DIR, f"{year}_{team}", "advanced_stats.csv")
+    if os.path.exists(p):
+        return pd.read_csv(p)
+    return None
 
 
 def _compute_depth_score(df_adv: pd.DataFrame | None) -> float | None:
@@ -165,4 +180,141 @@ def encode(df: pd.DataFrame):
 encode(df_coaches)
 
 print(df_coaches["Notes"].unique())
-print(df_coaches.head())
+
+# Coaches by post-2000 playoff appearances — one appearance = one season with playoff games
+df_coaches["G_playoff"] = pd.to_numeric(df_coaches["G.1"], errors="coerce").fillna(0)
+playoff_seasons = df_coaches[df_coaches["G_playoff"] > 0]
+playoff_appearances = (
+    playoff_seasons.groupby("Coach").size().rename("playoffs")
+)
+
+# One-row-per-coach summary card: same data as df_coaches with Season dropped, plus a "playoffs" column
+numeric_sum_cols = ["G", "W", "L", "G.1", "W.1", "L.1", "W > .500"]
+for c in numeric_sum_cols:
+    df_coaches[c] = pd.to_numeric(df_coaches[c], errors="coerce")
+df_coaches["Notes"] = pd.to_numeric(df_coaches["Notes"], errors="coerce").fillna(0)
+
+agg_spec = {
+    "team": lambda s: ", ".join(sorted(set(s.dropna().astype(str)))),
+    "Tm": lambda s: ", ".join(sorted(set(s.dropna().astype(str)))),
+    "Lg": lambda s: ", ".join(sorted(set(s.dropna().astype(str)))),
+    "G": "sum", "W": "sum", "L": "sum",
+    "G.1": "sum", "W.1": "sum", "L.1": "sum",
+    "W > .500": "sum",
+    "Notes": "max",  # 1=NBA chip, 2=conference title — keep best
+}
+coaches_card = df_coaches.groupby("Coach").agg(agg_spec)
+coaches_card["W/L%"] = (coaches_card["W"] / (coaches_card["W"] + coaches_card["L"])).round(3)
+coaches_card["W/L%.1"] = (coaches_card["W.1"] / (coaches_card["W.1"] + coaches_card["L.1"])).round(3)
+coaches_card = coaches_card.join(playoff_appearances).fillna({"playoffs": 0})
+coaches_card["playoffs"] = coaches_card["playoffs"].astype(int)
+
+def _season_end(s):
+    if not isinstance(s, str) or "-" not in s:
+        return None
+    try:
+        return int(s.split("-")[0]) + 1
+    except ValueError:
+        return None
+
+df_coaches["season_end_year"] = df_coaches["Season"].apply(_season_end)
+
+# Build depth lookup by computing from ALL available sources (SAC + titles + new playoff-depth folder)
+unique_pairs = df_coaches[["team", "season_end_year"]].drop_duplicates()
+depth_map: dict[tuple, float | None] = {}
+for _, r in unique_pairs.iterrows():
+    if pd.isna(r["season_end_year"]):
+        continue
+    key = (r["team"], int(r["season_end_year"]))
+    depth_map[key] = _compute_depth_score(_load_team_advanced(r["team"], int(r["season_end_year"])))
+
+df_coaches["depth_score"] = df_coaches.apply(
+    lambda r: depth_map.get((r["team"], r["season_end_year"])) if pd.notna(r["season_end_year"]) else None,
+    axis=1,
+)
+
+# Encode playoff distance from the Playoffs result text
+def encode_distance(text):
+    if pd.isna(text) or not str(text).strip():
+        return 0
+    t = str(text).strip()
+    if "Won Finals" in t:
+        return 5
+    if "Lost Finals" in t and "Conf" not in t:
+        return 4
+    if "Conf" in t and "Finals" in t:
+        return 3
+    if "Semis" in t:
+        return 2
+    if "1st Rnd" in t or "First Round" in t:
+        return 1
+    return 0
+
+playoff_hist = load_playoff_history(include_depth=False)
+playoff_hist["distance"] = playoff_hist["Playoffs"].apply(encode_distance)
+df_coaches = df_coaches.merge(
+    playoff_hist[["team", "Season", "distance"]], on=["team", "Season"], how="left"
+)
+df_coaches["distance"] = df_coaches["distance"].fillna(0).astype(int)
+
+# Per-season impact = playoff_distance / (depth_score + 1)
+# +1 offset keeps the denominator positive even for SAC seasons with negative raw depth
+mask = df_coaches["depth_score"].notna() & (df_coaches["distance"] > 0)
+df_coaches["impact_score"] = pd.NA
+df_coaches.loc[mask, "impact_score"] = (
+    df_coaches.loc[mask, "distance"] / (df_coaches.loc[mask, "depth_score"] + 1)
+)
+df_coaches["impact_score"] = pd.to_numeric(df_coaches["impact_score"], errors="coerce")
+
+# Aggregate per coach: sum + scoring season count
+total_impact = df_coaches.groupby("Coach")["impact_score"].sum().rename("total_impact").round(3)
+impact_seasons = (
+    df_coaches[df_coaches["impact_score"].notna()].groupby("Coach").size().rename("impact_seasons")
+)
+
+playoff_only = df_coaches[df_coaches["G_playoff"] > 0]
+avg_playoff_depth = (
+    playoff_only.groupby("Coach")["depth_score"].mean().rename("avg_playoff_depth").round(3)
+)
+
+coaches_card = coaches_card.join(avg_playoff_depth)
+coaches_card = coaches_card.join(total_impact).join(impact_seasons)
+coaches_card["impact_seasons"] = coaches_card["impact_seasons"].fillna(0).astype(int)
+
+# Most impactful single season per coach
+impact_rows = df_coaches.dropna(subset=["impact_score"]).copy()
+best_idx = impact_rows.groupby("Coach")["impact_score"].idxmax()
+best_seasons = impact_rows.loc[best_idx, ["Coach", "Season", "team", "season_end_year", "impact_score", "depth_score"]]
+best_seasons["best_season"] = best_seasons.apply(
+    lambda r: f"{r['Season']} {r['team']} ({round(r['impact_score'], 2)})",
+    axis=1,
+)
+
+# Star power = sum of VORP for all players on that roster with vorp >= 2.0 (All-Star caliber)
+STAR_VORP_THRESHOLD = 1.0
+def _star_power(team, year):
+    df = _load_team_advanced(team, year)
+    if df is None or "vorp" not in df.columns:
+        return None
+    vorp = pd.to_numeric(df["vorp"], errors="coerce")
+    stars = vorp[vorp >= STAR_VORP_THRESHOLD]
+    if stars.empty:
+        return 0.0
+    return float(stars.sum())
+
+best_seasons["star_power"] = best_seasons.apply(
+    lambda r: _star_power(r["team"], r["season_end_year"]),
+    axis=1,
+)
+
+best_seasons = best_seasons.set_index("Coach")
+coaches_card = coaches_card.join(best_seasons[["best_season", "impact_score", "star_power", "depth_score"]])
+coaches_card = coaches_card.rename(columns={"impact_score": "best_impact", "depth_score": "best_season_depth"})
+coaches_card["best_season_depth"] = coaches_card["best_season_depth"].round(3)
+coaches_card["star_power"] = coaches_card["star_power"].round(2)
+
+coaches_card = coaches_card.sort_values("best_impact", ascending=False)
+coaches_card.drop(columns=["Tm", "Lg", "team", "G", "G.1", "W.1", "L.1"], inplace=True)
+
+print("\n--- Coach summary card (post-2000) ---")
+print(coaches_card.head(20).to_string())

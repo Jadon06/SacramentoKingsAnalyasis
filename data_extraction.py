@@ -968,3 +968,147 @@ def download_coach_histories():
             print(f"  No rows collected for {team}")
 
 # download_coach_histories()
+
+def download_champions_playoffs_depth():
+    """For each champion team's post-2000 playoff seasons, save per-player advanced stats.
+
+    Skips SAC (we already have all seasons). For title-winning seasons that already
+    exist in champions_since_2000/, copies the existing advanced_stats.csv.
+    For other playoff seasons, fetches roster + each player's advanced stats fresh.
+    Output: data/Champions_playoffs_depth/{team}_{year}.csv per (team, year) pair.
+    """
+    import shutil
+
+    out_dir = os.path.join(DATA_DIR, "Champions_playoffs_depth")
+    os.makedirs(out_dir, exist_ok=True)
+    playoff_dir = os.path.join(DATA_DIR, "champions_playoff_appearances")
+    title_dir = os.path.join(DATA_DIR, "champions_since_2000")
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+    def find_table(html, table_id):
+        soup = BeautifulSoup(html, "html.parser")
+        table = soup.find("table", {"id": table_id})
+        if table is None:
+            for comment in soup.find_all(string=lambda t: isinstance(t, Comment)):
+                comment_soup = BeautifulSoup(comment, "html.parser")
+                table = comment_soup.find("table", {"id": table_id})
+                if table:
+                    break
+        return table
+
+    def season_end(s):
+        if not isinstance(s, str) or "-" not in s:
+            return None
+        try:
+            return int(s.split("-")[0]) + 1
+        except ValueError:
+            return None
+
+    # Build list of (team, year) pairs to process
+    targets = []
+    for f in sorted(os.listdir(playoff_dir)):
+        if not f.endswith(".csv"):
+            continue
+        team = f.replace(".csv", "")
+        if team == "SAC":  # already covered by SAC_since_2000
+            continue
+        df = pd.read_csv(os.path.join(playoff_dir, f))
+        df["year"] = df["Season"].apply(season_end)
+        playoff_rows = df[
+            (df["year"] >= 2000)
+            & df["Playoffs"].notna()
+            & (df["Playoffs"].astype(str).str.strip() != "")
+        ]
+        for _, row in playoff_rows.iterrows():
+            targets.append((team, int(row["year"])))
+
+    print(f"Found {len(targets)} post-2000 playoff team-seasons to process")
+
+    for team, year in targets:
+        out_path = os.path.join(out_dir, f"{team}_{year}.csv")
+        if os.path.exists(out_path):
+            print(f"Skipping {team} {year} (already saved)")
+            continue
+
+        # Title seasons already have advanced_stats.csv — copy it
+        title_path = os.path.join(title_dir, f"{year}_{team}", "advanced_stats.csv")
+        if os.path.exists(title_path):
+            shutil.copy2(title_path, out_path)
+            print(f"Copied {team} {year} from existing title-season data")
+            continue
+
+        season = f"{year - 1}-{str(year)[2:]}"
+        print(f"Fetching {team} {year} ({season})...")
+
+        try:
+            roster_resp = requests.get(
+                f"https://www.basketball-reference.com/teams/{team}/{year}.html",
+                headers=headers,
+            )
+            roster_resp.raise_for_status()
+        except requests.HTTPError as e:
+            print(f"  HTTP error on roster page: {e}")
+            continue
+        time.sleep(3)
+
+        roster_table = find_table(roster_resp.text, "roster")
+        if roster_table is None:
+            print(f"  No roster table for {team} {year}")
+            continue
+
+        player_links = {}
+        for tr in roster_table.find_all("tr"):
+            cell = tr.find("td", {"data-stat": "player"})
+            if cell is None:
+                continue
+            link = cell.find("a")
+            if link and link.get("href"):
+                player_links[link.get_text(strip=True)] = link["href"]
+
+        rows = []
+        for player_name, href in player_links.items():
+            try:
+                pr = requests.get(
+                    f"https://www.basketball-reference.com{href}", headers=headers
+                )
+                pr.raise_for_status()
+            except requests.HTTPError as e:
+                print(f"    {player_name}: HTTP error {e}")
+                time.sleep(3)
+                continue
+            time.sleep(3)
+
+            adv_table = find_table(pr.text, "advanced")
+            if adv_table is None:
+                continue
+
+            target_row = None
+            for tr in adv_table.find_all("tr"):
+                season_cell = tr.find(["td", "th"], {"data-stat": "year_id"})
+                team_cell = tr.find(["td", "th"], {"data-stat": "team_name_abbr"})
+                if not season_cell or not team_cell:
+                    continue
+                if (
+                    season_cell.get_text(strip=True) == season
+                    and team_cell.get_text(strip=True) == team
+                ):
+                    target_row = tr
+                    break
+
+            if target_row is None:
+                continue
+
+            row_data = {"Player": player_name}
+            for cell in target_row.find_all(["td", "th"]):
+                stat = cell.get("data-stat")
+                if stat:
+                    row_data[stat] = cell.get_text(strip=True)
+            rows.append(row_data)
+
+        if rows:
+            pd.DataFrame(rows).to_csv(out_path, index=False)
+            print(f"  Saved {out_path} ({len(rows)} players)")
+        else:
+            print(f"  No data collected for {team} {year}")
+
+# download_champions_playoffs_depth()
