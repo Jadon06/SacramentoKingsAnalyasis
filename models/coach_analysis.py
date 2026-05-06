@@ -1,5 +1,7 @@
 import os
 import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(__file__))
 MGMT_DIR = os.path.join(ROOT, "data", "mgmt_history")
@@ -315,6 +317,36 @@ coaches_card["star_power"] = coaches_card["star_power"].round(2)
 
 coaches_card = coaches_card.sort_values("best_impact", ascending=False)
 coaches_card.drop(columns=["Tm", "Lg", "team", "G", "G.1", "W.1", "L.1"], inplace=True)
+only_champions = coaches_card[coaches_card["Notes"] == 2]
+# print(only_champions)
 
 print("\n--- Coach summary card (post-2000) ---")
-print(coaches_card.head(20).to_string())
+notna = coaches_card[(coaches_card["best_season_depth"].notna())].sort_values("star_power", ascending=True)["star_power"]
+
+# plt.hist(notna, bins=14, density=True)
+
+# mu = np.mean(notna)
+# sigma = np.std(notna)
+
+# x = np.linspace(min(notna), max(notna), 200)
+# y = (1 / (sigma * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mu) / sigma) ** 2)
+# q1, q2, q3 = np.percentile(notna, [25, 50, 75])
+
+# plt.plot(x,y)
+# plt.axvline(mu, linestyle='--', color="red")
+# plt.axvline(q1, linestyle=':', color='green')
+# plt.axvline(q2, linestyle=':', color='green')
+# plt.axvline(q3, linestyle=':', color='green')
+
+# plt.text(mu, max(y) * 0.9, f'μ = {mu:.2f}')
+# plt.text(q1, max(y) * 0.8, f'Q1 = {q1:.2f}')
+# plt.text(q2, max(y) * 0.7, f'Q2 = {q2:.2f}')
+# plt.text(q3, max(y) * 0.6, f'Q3 = {q3:.2f}')
+
+# plt.xlabel("values")
+# plt.ylabel("density")
+# plt.show()
+
+print(notna.to_string())
+notna = coaches_card[(coaches_card["best_season_depth"].notna()) & (coaches_card["Notes"] == 2)]
+print(notna.to_string())
